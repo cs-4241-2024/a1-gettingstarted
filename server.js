@@ -10,8 +10,15 @@ const server = http.createServer( function( request,response ) {
     case '/index.html':
       sendFile( response, 'index.html' )
       break
+    case '/style.css':
+      sendFile(response, 'style.css')
+      break
+    case '/copyemailscript.js':
+      sendFile(response, 'copyemailscript.js')
+      break
     default:
-      response.end( '404 Error: File Not Found' )
+      response.writeHead(404, { 'Content-Type': 'text/plain' });
+      response.end('404 Error: File Not Found');
   }
 })
 

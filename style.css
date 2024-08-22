@@ -1,0 +1,181 @@
+/* 
+Colors:
+     Text:
+     - #5FCDD9
+     Highlights:
+     - #172026
+     Background:
+     - #027373
+     Other:
+      Light Green/Blue:
+     - #04BFAD
+      Greener:
+     - #04BF9D
+*/
+
+h1 {
+    color: #172026;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2{
+    color: #172026;
+    font-size: 1.75em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p{
+    color: #172026;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    background-color: #027373;
+    font-family: 'Sofia', sans-serif;
+    min-height: 100vh;
+}
+
+/* https://www.w3schools.com/CSS/css_grid.asp */
+.item1{
+    grid-area: title;
+}
+
+.item1b{
+    grid-area: summary;
+}
+
+.item2{
+    grid-area: prevClasses;
+}
+
+.item3{
+    grid-area: codeExp;
+}
+
+.item4{
+    grid-area: workExp;
+}
+
+.item5{
+    grid-area: contact;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    'title title title title title title'
+    'summary summary summary summary summary summary'
+    'prevClasses codeExp codeExp workExp workExp workExp'
+    'prevClasses codeExp codeExp workExp workExp workExp'
+    'contact contact contact contact contact contact';
+    gap: 8px;
+    background-color: #027373;
+    padding: 5px;
+    border: 2px solid #172026;
+    border-radius: 8px;
+    opacity: 70%;
+}
+
+.grid-container > div {
+    background-color: #5FCDD9;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 24px;
+    opacity: 70%;
+}
+
+ul {
+    padding-left: 20px;  
+    margin: 0;           
+    list-style-type: disc; 
+}
+
+li {
+    
+    padding: 5px 0;  
+    margin: 0; 
+    text-align: left;      
+}
+
+h3 {
+    color: #172026;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.flex-container {
+    display: flex;    
+    justify-content: center;
+    gap: 10px;         
+}
+
+.copy-email{
+    color: #172026;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.container
+{
+    position:relative;
+    width:100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bubbles
+{
+    z-index: -1000;
+    position: relative;
+    display: flex;
+}
+
+.bubbles span
+{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #04BFAD;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #04bfac46,
+    0 0 50px #04BF9D,
+    0 0 100px #04BF9D;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(125s / var(--i));
+    /* animation-duration: calc(125s / var(--i)); */
+}
+
+.bubbles span:nth-child(even)
+{
+    background: lightblue;
+    box-shadow: 0 0 0 10px #04BF9D46,
+    0 0 50px #04BF9D,
+    0 0 100px #04BF9D;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: translateY(100vh) scale(0.1);
+    }
+    100%
+    {
+        transform: translateY(-10vh) scale(1);
+    }
+}
