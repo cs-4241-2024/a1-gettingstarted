@@ -10,7 +10,7 @@ This project shows ...
 - **Added Style Rules on to a**: Made it a specific color to match color scheme in file AdobeColorsTheme.jpeg and added a background color so it is more legible
 - **Added Style Rules on to li**: gave some additional space between list items
 ### Javascript Animation
-- **Added js animation on my name **: Added a simple js animation that changes the position on the y-axis to create effect of bouncing
+- **Added a js animation on my name**: Added a simple js animation that changes the position on the y-axis to create effect of bouncing
 ### Semantic 5 HTML Tags
 - **Added a header**: Containing both my h1 tags
 - **Added an a tag**: To link to WPI's home page
