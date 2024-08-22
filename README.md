@@ -1,4 +1,4 @@
-Charlie Roberts http://a1-jeremymkurtz.glitch.me
+Jeremy Kurtz http://a1-jeremymkurtz.glitch.me
 
 This project shows ...
 
