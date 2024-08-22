@@ -1,0 +1,47 @@
+p {font-size: large}
+li {font-size: large; margin: 15px;}
+
+
+.blackbg {
+    background-color: grey;
+  }
+
+
+.bodybox {
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #FFFDD0;
+    padding: 10px;
+    background: lightgrey;
+}
+
+.imgStyled {
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+/* font styling */
+@font-face {
+    font-family: 'nunito';
+    src: url(/nunito.ttf);
+    }
+
+    .nunito {
+    font-family: 'nunito';
+    font-size: 15;
+    }
+    
+
+    /* flex */
+
+    .flex{
+        display: flex;
+        flex-flow: row wrap;
+      }
