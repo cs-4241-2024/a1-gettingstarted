@@ -1,0 +1,52 @@
+/* Add some basic styling to your webpage */
+
+body {
+    background-color: #F2F2F2;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    color: #247BA0;
+}
+h2 {
+    color: #70C1B3;
+}
+
+ul {
+    color: #B2DBBF;
+    padding: 0; /* Remove padding from lists */
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    font-style: italic;
+    background-color: #B2DBBF;
+    color: #F3FFBD;
+}
+
+p {
+    color: #70C1B3
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+#name {
+    display: inline-block;
+    animation: bounce 1s infinite;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,43 +1,23 @@
+Charlie Roberts http://a1-jeremymkurtz.glitch.me
+
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, and a selectors...
+### 5 Style Rules
+- **Added Style Rules on to H1**: Made it a specific color to match color scheme in file AdobeColorsTheme.jpeg
+- **Added Style Rules on to H2**: Made it a specific color to match color scheme in file AdobeColorsTheme.jpeg
+- **Added Style Rules on to ul**: Made it a specific color to match color scheme in file AdobeColorsTheme.jpeg
+- **Added Style Rules on to a**: Made it a specific color to match color scheme in file AdobeColorsTheme.jpeg and added a background color so it is more legible
+- **Added Style Rules on to li**: gave some additional space between list items
+### Javascript Animation
+- **Added js animation on my name **: Added a simple js animation that changes the position on the y-axis to create effect of bouncing
+### Semantic 5 HTML Tags
+- **Added a header**: Containing both my h1 tags
+- **Added an a tag**: To link to WPI's home page
+- **Added an image tag**: To display WPI's logo
+- **Added a footer**: Contains a short description saying what the page is
+- **Added a mark**: Highlighted the text Relevant to accentuate that I am only referencing relevant courses 
 
 ## Design Achievements
-- **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
-
-Achievements
----
-Below are some suggested technical and design achievements. You can use these to help boost your grade up to an A and customize the assignment to your personal interests. These are recommended acheivements, but feel free to create/implement your own... just make sure you thoroughly describe what you did in your README and why it was challenging. ALL ACHIEVEMENTS MUST BE DESCRIBED IN YOUR README IN ORDER TO GET CREDIT FOR THEM.
-
-Note that if you want to load resources besides your index.html file (images, an CSS file, a JS file) you'll need to modify server.js to point to these. For now it's easiest to just hardcode paths to the resources, but we'll look at ways to optimize this shortly.
-
-*Technical*
-1. (max 5 points) Style your page using CSS. Each style rule you apply will get you 1 extra point for a maximum of 5 points. Be sure to describe your style rules in your README.
-2. (5 points) Add a simple JavaScript animation to the page.
-3. (max 5 points) Experiment with other *semantic* HTML tags (links, images, tables, header, footer, etc.) Each extra tag you use will get you 1 extra point for a maximum of 5 points. Be sure to describe the tags you use in your README.
-
-*Design*
-1. (10 points) Create a color palette using [color.adobe.com](https://color.adobe.com). Use all the colors in the palette in your webpage by implementing the appropriate CSS. Add a small screenshot of the color wheel for your color palette to your repo.
-2. (5 points) Use a font from [Google Fonts](https://fonts.google.com) in your website.
-
-Resources
----
-
-If you need a JavaScript/HTML/CSS refresher, see [HTML & CSS](https://wpi.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma9936730811904746&context=L&vid=01WPI_INST:Default&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=Everything&query=any,contains,Jon%20Duckett&offset=0) and/or [JavaScript Codeacademy](https://www.codecademy.com/en/tracks/javascript).
-
-If you need a Git/GitHub refreseher, see [GitHub Bootcamp](https://help.github.com/categories/bootcamp/), the [GitHub Guides](https://guides.github.com/) (especially the ones on Hello World, and Understanding the GitHub Flow, and Forking Projects), and [CodeSchool's Try Git Course](https://www.codeschool.com/courses/try-git).
-
-Sample Readme (delete the above when you're ready to submit, and modify the text below with your links and descriptions)
----
-
-Charlie Roberts
-http://a1-charlieroberts.glitch.me
-
-This project shows ...
-
-## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, and a selectors...
-
-### Design Achievements
-- **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
+- **Created a color palette using [color.adobe.com](https://color.adobe.com)**: See AdobeColorsTheme.jpeg within the assets folder of the project and used them in my h1, h2, ul, and a tags
+- **Used the Roboto Font from Google Fonts**: I imported the roboto font and used it throughout the webpage 
