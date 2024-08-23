@@ -3,26 +3,160 @@
   <head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="indexCss.css">
+    <script src="indexScript.js"></script>
   </head>
   <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
-
-    <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
+  <div class="centerRect">
+    <div>
+      <header class="headerStyle">
+        <h1>Information about Stryder Crouse</h1>
+        <div class="headerStyle">
+          <img src="usa.png" alt="USAorSingapore" class="imgStyle" onclick=fadeOutAndChange("fadingImage") id="fadingImage">
+          <p>
+            Born in the USA. Raised in Singapore.
+          </p>
+        </div>
+        <div class="introContainer">
+          <p class="lightBox">
+            Class of 2025 at <a href="https://www.wpi.edu/">WPI</a>.
+          </p>
+          <p class="lightBox">
+            Major: Computer Science
+          </p>
+        </div>
+        <div class="gridItem lightBox" >
+          <p style="padding: 0; margin: 0;">Minors</p>
+          <ul style="padding: 10px; margin: 0;">
+            <li>Physics</li>
+            <li>Data Science</li>
+          </ul>
+        </div>
+      </header>
+      <h2 class="subHeadingStyle">
+        Language experience
+      </h2>
+      <section class="gridContainer" onclick=showOrHideExtraText("language") id="language">
+        <div class="gridItem" style="background-color:#a1cca5">
+          <p>HTML</p>
+          <div class="extraTextHidden">
+            <p class="pStyle"> A lot </p>
+            <p class="pStyle"> Created own website to host my brothers basketball videos and
+              was lead software engineer CS3733 to create a website for a hospital. </p>
+          </div>
+        </div>
+        <div class="gridItem" style="background-color:#a1cca5">
+          <p>CSS</p>
+          <div class="extraTextHidden">
+            <p class="pStyle"> A lot </p>
+            <p class="pStyle"> Created own website to host my brothers basketball videos and
+              was lead software engineer CS3733 to create a website for a hospital. </p>
+          </div>
+        </div>
+        <div class="gridItem" style="background-color:#a1cca5">
+          <p>Java Script</p>
+          <div class="extraTextHidden">
+            <p class="pStyle"> A lot </p>
+            <p class="pStyle"> Created own website to host my brothers basketball videos and
+              was lead software engineer CS3733 to create a website for a hospital. </p>
+          </div>
+        </div>
+        <div class="gridItem" style="background-color:#a1cca5">
+          <p>Python</p>
+          <div class="extraTextHidden">
+            <p class="pStyle"> A lot </p>
+            <p class="pStyle"> Used extensively at my most recent internship, also used thought my course work. </p>
+          </div>
+        </div>
+        <div class="gridItem" style="background-color:#a1cca5">
+          <p>Unit testing</p>
+          <div class="extraTextHidden">
+            <p class="pStyle"> A lot </p>
+            <p class="pStyle"> Used extensively at my most recent internship, also used thought my course work. </p>
+          </div>
+        </div>
+        <div class="gridItem" style="background-color:#54a5ba">
+          <p>Java</p>
+          <div class="extraTextHidden">
+            <p class="pStyle"> Some </p>
+            <p class="pStyle"> Mainly used in a school environment </p>
+          </div>
+        </div>
+        <div class="gridItem" style="background-color:#e97171;grid-column: 2 / 2;">
+          <p>Ruby</p>
+          <div class="extraTextHidden">
+            <p class="pStyle"> None </p>
+            <p class="pStyle"> Heard of, never used. </p>
+          </div>
+        </div>
+      </section>
+      <h2 class="subHeadingStyle" >
+        Computer Science courses taken
+      </h2>
+      <table class="tableStyle">
+        <tr>
+          <th class="thStyle">1000 level</th>
+          <th class="thStyle">2000 level</th>
+          <th class="thStyle">3000 level</th>
+          <th class="thStyle">4000 level</th>
+        </tr>
+        <tr>
+          <td class="tdStyle">1102 Accelerated Introduction To Program Design</td>
+          <td class="tdStyle">2103 Accelerated Object-Oriented Design Concepts</td>
+          <td class="tdStyle">3516 Computer Networks</td>
+          <td class="tdStyle">4120 Analysis Of Algorithms</td>
+        </tr>
+        <tr>
+          <td class="tdStyle"></td>
+          <td class="tdStyle">2011 Introduction To Machine Organization And Assembly Languages</td>
+          <td class="tdStyle">3733 Software Engineering</td>
+          <td class="tdStyle">4341 Introduction To Artificial Intelligence</td>
+        </tr>
+        <tr>
+          <td class="tdStyle"></td>
+          <td class="tdStyle">2223 Algorithms</td>
+          <td class="tdStyle">3013 Operating Systems</td>
+          <td class="tdStyle"></td>
+        </tr>
+        <tr>
+          <td class="tdStyle"></td>
+          <td class="tdStyle"></td>
+          <td class="tdStyle">3043 Social Implications Of Information Processing</td>
+          <td class="tdStyle"></td>
+        </tr>
+      </table>
+      <h2 class="subHeadingStyle" >
+        Working experience
+      </h2>
+      <section class="gridContainer" onclick=showOrHideExtraText("working") id="working">
+        <div class="gridItem" style="background-color:#D6C6D2">
+          <img src="arista.png" alt="arista" class="imgStyle">
+          <p>Arista</p>
+          <div class="extraTextHidden">
+            <p class="pStyle"> Worked on expanding Arista's EOS (Extended Operating System) with new features for
+              Border Gateway Protocol switching and traffic policy. </p>
+          </div>
+        </div>
+        <div class="gridItem" style="background-color:#D6C6D2">
+          <img src="ibuki.jpg" alt="IBUKI" class="imgStyle">
+          <p>IBUKI</p>
+          <div class="extraTextHidden">
+            <p class="pStyle"> Developed an AI agent using LangChain and the OpenAI API. The AI agent had the ability to search the web and
+              Wikipedia to answer the user’s questions. </p>
+          </div>
+        </div>
+        <div class="gridItem" style="background-color:#D6C6D2">
+          <img src="a-star.png" alt="a*star" class="imgStyle">
+          <p>A*star</p>
+          <div class="extraTextHidden">
+          <div class="extraTextHidden">
+            <p class="pStyle"> Developed a map of singapore for building planning using QML, Pyside2, and Open Street Map data. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footerStyle">Webpage by Stryder Crouse for CS4241</footer>
+    </div>
+  </div>
   </body>
 </html>
