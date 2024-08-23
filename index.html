@@ -3,26 +3,40 @@
   <head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script>
+        document.onmousemove = handleMouseMove;
+        function handleMouseMove(event) {
+          document.getElementById('cat').style.left = event.clientX + "px";
+          document.getElementById('cat').style.top = event.clientY + "px";
+        }
+    </script>
   </head>
   <body>
-    <h1>Information about [Your name here]</h1>
+    <h1>Information about Emma Pollak '25</h1>
     <p>
-      [Self introduction]
+    Taken CS3516, CS2011, CS3733 
     </p>
     <p>
-      [Major and other information]
+  	Majoring in Robotics Engineering and Computer Science
     </p>
-    <p>
-      [Other things]
-    </p>
-
     <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
     <ul>
-      <li>IBM/Rational</li>
+	    <li>HTML: Some experience</li>
+	    <li>CSS: Little experience</li>
+	    <li>Java: Some experience</li>
+      <li>JavaScript: Some experience</li>
+      <li>Ruby: No experience</li>
+      <li>Python: Some experience</li>
+      <li>Unit Testing: Some experience</li>
+    </ul>
+
+    <h3>
+      Working experience
+    </h3>
+    <ul>
       <li>WPI</li>
     </ul>
+    <img style="position:fixed; left:200px" id="cat" src="https://static.vecteezy.com/system/resources/thumbnails/021/830/103/small/realistic-cute-cat-cartoon-style-digital-artwork-free-png.png" alt="cat">
   </body>
 </html>

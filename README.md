@@ -96,7 +96,10 @@ http://a1-charlieroberts.glitch.me
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, and a selectors...
+- Added a javascript animation of a cat following your cursor
+- Used img tag
+- Styled page with CSS: Added rules for the p, li, h1, h2, and h3 selectors
 
 ### Design Achievements
-- **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
+- Created a color palette, a screenshot of which is palette.png, and implemented all colors of it. 
+![Palette](palette.png "Palette")
