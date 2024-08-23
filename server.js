@@ -22,8 +22,8 @@ const server = http.createServer( function( request,response ) {
     case '/arista.png':
       sendFile( response, 'arista.png' )
       break
-    case '/ibuki.png':
-      sendFile( response, 'ibuki.png' )
+    case '/ibuki.jpg':
+      sendFile( response, 'ibuki.jpg' )
       break
     case '/singapore.png':
       sendFile( response, 'singapore.png' )
