@@ -10,6 +10,13 @@ const server = http.createServer( function( request,response ) {
     case '/index.html':
       sendFile( response, 'index.html' )
       break
+    // I added these cases to serve the CSS and JS files alongside the HTML file
+    case '/styles.css':
+      sendFile(response, 'styles.css');
+      break;
+    case '/scripts.js':
+      sendFile(response, 'scripts.js');
+      break;
     default:
       response.end( '404 Error: File Not Found' )
   }

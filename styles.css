@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+html {
+    font-family: Comic Neue, sans-serif;
+
+    /* Color Palette generated using coolors.co */
+    /* Animation generated using gradient-animator.com */
+    background: linear-gradient(236deg, #DBF9F4, #E6FDFF, #D9D7DD, #B07BAC, #5F7367);
+    background-size: 800% 800%;
+    -webkit-animation: background-animation 55s ease infinite;
+    -moz-animation: background-animation 55s ease infinite;
+    -o-animation: background-animation 55s ease infinite;
+    animation: background-animation 55s ease infinite;
+}
+
+@-webkit-keyframes background-animation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes background-animation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes background-animation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes background-animation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+#about {
+    text-align: center;
+
+    p {
+        font-size: 1.5rem;
+        margin: 1rem auto;
+        text-align: left;
+    }
+}
+
+#courses {
+    text-align: center;
+
+    ul {
+        list-style-type: circle;
+        padding: 0;
+        margin: auto;
+    }
+
+    li {
+        font-size: 1.5rem;
+        margin: auto;
+        text-align: left;
+    }
+}
+
+#experience {
+    text-align: center;
+
+    ul {
+        list-style-type: circle;
+        padding: 0;
+        margin: auto;
+    }
+
+    li {
+        font-size: 1.5rem;
+        margin: auto;
+        text-align: left;
+    }
+}
+
+.section {
+    margin: 2rem auto;
+    width: 50%;
+}
