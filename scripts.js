@@ -34,8 +34,8 @@ button.addEventListener('click', () => {
                 document.body.removeChild(courses);
                 document.body.removeChild(about);
 
+                about.insertBefore(button, about.firstChild);
                 document.body.appendChild(about);
-                about.removeChild(hr);
                 document.body.appendChild(courses);
                 document.body.appendChild(exp);
             }
