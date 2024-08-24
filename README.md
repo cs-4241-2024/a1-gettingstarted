@@ -3,7 +3,7 @@
 Cole Welcher
 https://a1-colegw.glitch.me
 
-This project shows ...
+This project shows a simple understanding of basic github, css, html, and js principles.
 
 ## Technical Achievements
 - **Styled page with CSS**: Added rules for the h1, h2, h3, p, body, ul, li, and container
