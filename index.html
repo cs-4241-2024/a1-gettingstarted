@@ -3,26 +3,125 @@
   <head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
+  <header>
+    <h1>CS4241 Assignment 1</h1>
+  </header>
   <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
+    <section>
+      <h1>Information about Justin Smith</h1>
+      <p>
+        My name is Justin Smith. I am currently a Senior at WPI, and in the Class of 2025.
+      </p>
+      <p>
+        I am currently majoring in CS and IMGD Tech.
+      </p>
+      <p>
+        I plan on pursuing a Masters' in CS through the BS/MS program
+      </p>
+    </section>
 
-    <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
+
+    <section>
+      <h2>Experience</h2>
+      <h3>
+        CS Classes Taken
+      </h3>
+      <ul>
+        <li>CS 1101</li>
+        <li>CS 2022</li>
+        <li>CS 2102</li>
+        <li>CS 2223</li>
+        <li>CS 2303</li>
+        <li>CS 3013</li>
+        <li>CS 3041</li>
+        <li>CS 3043</li>
+        <li>CS 3133</li>
+        <li>CS 3431</li>
+        <li>CS 3733</li>
+  
+        <p>
+          Have also taken IMGD 3000 and 4000; both tech-focused development classes
+        </p>
+  
+      </ul>
+  
+  
+  
+      <h3>Experience with programming languages</h3>
+      <ul>
+        <li>HTML: A lot</li>
+        <li>CSS: Some</li>
+        <li>Java: A lot</li>
+        <li>JavaScript: Some</li>
+        <li>Ruby: None</li>
+        <li>Python: Some</li>
+        <li>Unit Testing: Some</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>A Table</h2>
+      <table>
+        <tr>
+          <th>Head 1</th>
+          <th>Head 2</th>
+          <th>Head 3</th>
+        </tr>
+        <tr>
+          <td>Info 1</td>
+          <td>Info 2</td>
+          <td>Info 3</td>
+        </tr>
+        <tr>
+          <td>Info 4</td>
+          <td>Info 5</td>
+          <td>Info 6</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Simple animation</h2>
+      <p><button onclick="simpleAnim()">Start</button></p> 
+
+    <div id ="container">
+      <div id ="animate"></div>
+    </div>
+
+    <script>
+      //Change script later
+      function simpleAnim() {
+      let id = null;
+      const elem = document.getElementById("animate");   
+      let pos = 0;
+      clearInterval(id);
+      id = setInterval(frame, 2);
+      function frame() {
+        if (pos == 350) {
+          clearInterval(id);
+        } else {
+          pos++; 
+          elem.style.top = pos + "px"; 
+          elem.style.left = pos + "px"; 
+        }
+      }
+    }
+    </script>
+    </section>
+
+    <section>
+      <h2>Source of colors used</h2>
+      <figure>
+        <img src="Adobe Color Wheel.png" alt="Color Wheel" width = "120" height = "90"/>
+      </figure>
+    </section>
+
   </body>
+  <footer>
+    Created for Professor Charlie Roberts' CS4241-A24 class 
+  </footer>
 </html>
+
+

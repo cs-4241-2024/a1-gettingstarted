@@ -90,13 +90,20 @@ If you need a Git/GitHub refreseher, see [GitHub Bootcamp](https://help.github.c
 Sample Readme (delete the above when you're ready to submit, and modify the text below with your links and descriptions)
 ---
 
-Charlie Roberts
-http://a1-charlieroberts.glitch.me
+Justin Smith
+http://a1-JustinS-23.glitch.me
 
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, and a selectors...
+- **Styled page with CSS**: Added style rules for the p, body, header, footer, h1-4, ul, and animation container.
+                            Modified the font size for the body & p, the font color for most text, the heading for h containers,
+                            the width/height of the animation container, and a color gradient for the header and footer.
+                            I also aligned text for the table (centered), and created a border for the header and table contents.
+- **JavaScript Animation**: Added a simple moving square to the page
+- **Semantic HTML tags**: I created a header and footer, alongside a displayed image on the page. 
+                          Plus, I used the section tag to split each portion of text and 
 
 ### Design Achievements
-- **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
+- **Used an Adobe Color Palette**: The Color pallette used is in the repo
+- **Used the Roboto Font from Google Fonts**: I used [font here] as the font for the primary copy text in my site.
