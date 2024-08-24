@@ -16,7 +16,7 @@ https://www.youtube.com/watch?v=wuUSVEcK-kM
 it is simply bubbles floating up from the bottom
 
 - **Experimented with tags**: Created a grid container that uses 5 customs tags item1 - item 4 + item1b, used the link tag for the css file creating a header and footer, aswell as a tag to link to Google Font website,
-Also used <a> for hyperlinks.
+Also used <a> for hyperlinks, and added two list using ul and li.
 
 ### Design Achievements
 - **Used the Sofia Font from Google Fonts**: I used Sofia as the font for the primary copy text in my site.
