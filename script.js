@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Bounce animation for headers
+    // animation for headers
     const headers = document.querySelectorAll('h1, h2');
 
     headers.forEach(header => {
         let position = 0;
         let direction = 1;
-        const amplitude = 30; 
+        const amplitude = 2; 
         const speed = 0.2; 
         
         function bounce() {
@@ -19,12 +19,12 @@ document.addEventListener("DOMContentLoaded", function() {
         bounce();
     });
 
-    // Dropdown toggle functionality
+    // dropdown toggle functionality
     const buttons = document.querySelectorAll('.toggle-button');
 
     buttons.forEach(button => {
         const dropdownContent = button.nextElementSibling;
-        dropdownContent.style.display = "none"; // Ensure the dropdown is hidden initially
+        dropdownContent.style.display = "none"; // dropdown is hidden initially
         
         button.addEventListener('click', function() {
             if (dropdownContent.style.display === "none") {
