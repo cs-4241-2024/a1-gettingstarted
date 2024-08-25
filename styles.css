@@ -1,15 +1,33 @@
 body{
-    background-color: blanchedalmond;
+    background-color:ivory;
 }
 h1{
     text-align:center;
 }
-h2{ 
-    color: red
-}
+
 p{ 
     color:black; 
 }
 .description { 
     text-align: center;
+    font-size: x-large; 
 }
+.customHeader{ 
+    color: blue; 
+    text-align: left;
+    font:bold;
+    font-weight: 200;
+}
+.customFooter{ 
+    text-align: center;
+    font:bold; 
+    font-weight: 850;
+    font-size: x-large;
+}
+.favoriteQuote{ 
+    text-align: center;
+    font:bold; 
+    font-size: large;
+    margin-left: 2%;
+}
+
