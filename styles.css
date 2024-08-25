@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #CEECF2; /* Very light blue background */
+    color: #3C4359; /* Dark blue text color */
+}
+
+#wiggle-header {
+    transform-origin: center;
+    display: inline-block;
+}
+
+p {
+    max-width: 800px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1F43BC; /* Medium blue for headers */
+}
+
+#wiggle-header {
+    transform-origin: center;
+    display: inline-block;
+    color: #58BED9;
+}
+
+a {
+    color: #1F43BC;
+}
+
+a:hover {
+    color: #F2E63D;
+}
+
