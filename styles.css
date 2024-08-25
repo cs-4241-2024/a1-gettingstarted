@@ -2,39 +2,61 @@ body{
     background-color:ivory;
 }
 h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
     text-align:center;
 }
 
 p{ 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color:black; 
 }
 .description { 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
     font-size: x-large; 
 }
 .customHeader{ 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: blue; 
     text-align: left;
     font:bold;
     font-weight: 200;
 }
 .customFooter{ 
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
     text-align: center;
     font:bold; 
     font-weight: 850;
     font-size: x-large;
 }
 .favoriteQuote{ 
+    
     text-align: center;
     font:bold; 
     font-size: large;
     margin-left: 2rem;
 }
 tr, td, th{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     border: 1px solid black; 
     margin-left: 2rem;
 }
 
 img{ 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     align-items: center;
 }
