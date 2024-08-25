@@ -12,7 +12,12 @@ const server = http.createServer( function( request,response ) {
       break
     case '/styles.css': 
       sendFile(response, 'styles.css'); 
+      break;
+    case '/wpiSvg.png':
+      sendFile(response, 'wpiSvg.png'); 
       break; 
+      
+
     default:
       response.end( '404 Error: File Not Found' )
   }
@@ -22,6 +27,7 @@ server.listen( process.env.PORT || port )
 
 const sendFile = function( response, filename ) {
    fs.readFile( filename, function( err, content ) {
+    
      response.end( content, 'utf-8' )
    })
 }

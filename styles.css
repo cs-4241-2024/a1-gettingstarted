@@ -28,6 +28,13 @@ p{
     text-align: center;
     font:bold; 
     font-size: large;
-    margin-left: 2%;
+    margin-left: 2rem;
+}
+tr, td, th{
+    border: 1px solid black; 
+    margin-left: 2rem;
 }
 
+img{ 
+    align-items: center;
+}
