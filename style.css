@@ -1,0 +1,103 @@
+/* General page styling */
+body {
+    background-color: #f7fafc; /* Softer background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8; /* Increased line height for better readability */
+    font-size: 18px; /* Slightly larger font size */
+}
+
+/* Improved headers */
+h1 {
+    font-family: "New Amsterdam", sans-serif;
+    color: #ff6347; /* Slightly toned down the orange */
+    text-align: center;
+    margin-top: 30px;
+    font-size: 3em; /* Increased size */
+    text-shadow: 2px 2px #ffe4b5;
+}
+
+h2 {
+    font-family: "New Amsterdam", sans-serif;
+    color: #5a9bd3; /* Lighter blue for better contrast */
+    text-align: center;
+    font-size: 2.2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.new-amsterdam-regular{
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Updated paragraph styling */
+p {
+    font-size: 1.1em; /* Slightly larger for readability */
+    line-height: 1.8;
+    max-width: 900px; /* Increased max-width */
+    margin: 20px auto;
+    padding: 15px 25px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow */
+}
+
+/* List styling */
+ul.skills-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+ul.skills-list li {
+    background: #ffebcd; /* Light golden background */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+ul.skills-list li strong {
+    color: #ff4500; /* Match header color */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4682b4; /* Steel blue */
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+}
+
+
+.dropdown-content {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+}
+
+.toggle-button {
+    background-color: #5a9bd3; /* More modern blue */
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    font-size: 1.1em;
+    margin: 20px auto;
+    width: 60px; /* Adjusted width for consistency */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+    background-color: #4a89c7; /* Lighter shade on hover */
+}
