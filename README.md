@@ -30,6 +30,6 @@ This project shows ...
     Challenges: Implementing these HTML tags was difficult due to the need to integrate CSS for styling, manage JavaScript interactions, and ensure proper structuring and functionality of the different components of the app
 
 ### Design Achievements
-    - **Used the New Amsterdam Font from Google Fonts**: I used New Amsterdam as the font for the header text in my site. Those include h1 and h2 respectively. Followed the guidelines and utilized the embed code provided by Google Fonts.
+- **Used the New Amsterdam Font from Google Fonts:** I used New Amsterdam as the font for the header text in my site. Those include h1 and h2 respectively. Followed the guidelines and utilized the embed code provided by Google Fonts.
 
     Challenges: Had to follow the google font instructions to apply the font family to my program, it was certainly a new experience to me and I learned
