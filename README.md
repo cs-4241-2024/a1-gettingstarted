@@ -4,8 +4,8 @@ http://a1-smoliner1.glitch.me
 This project shows my starting website for the term.
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the summary, and details selectors...
-- **Stylized page with semantic HTML tags**: Added rules for the i, b, 
+- **Styled page with CSS**: Added rules for the i, b, em, summary, and details selectors...
+- **Stylized page with semantic HTML tags**: Added rules for the 
 
 ### Design Achievements
-- **INSERT ACHIEVEMENT HERE**: 
+- **Used the Roboto Font from Google Fonts**: Used the Roboto font for the headers in the website.
