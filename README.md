@@ -201,7 +201,7 @@ http://a1-nrogerson234.glitch.me
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS: Added rules for the h1, h2, p, ul, li, and table elements. The h1 element is centered and animated, p elements have increased font size and line height, ul elements use square bullets, li elements have margin, and table elements are styled with borders and padding.**
+- **Styled page with CSS: Added rules for the h1, h2, p, ul, li, and table elements. The h1 element is centered and animated, p elements have increased font size and line height, ul elements use square bullets, li elements have margin, and table elements are styled with borders and padding. Also made background black, because I wanted the text to be easier to read.**
 - **Added a simple JavaScript animation: Implemented a color-changing animation for the h1 element that alternates between two colors every second.**
 - **HTML tags: Added header(h1, h2) and footer elements (copyright at bottom of page) for better document structure and a table element(table, th, td) to display the list of courses.**
 
