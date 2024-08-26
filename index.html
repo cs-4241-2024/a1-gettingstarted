@@ -1,28 +1,108 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+
+    <style>
+      body {background-color: aqua;}
+      h1 {color: magenta;}
+      h2 {font-family: Arial, Helvetica, sans-serif;}
+      h3 {color: #EAB62E;
+      font-family: "Playfair Display";}
+      h4 {color: #36EA48}
+      h6 {color: #6025EB}
+      h7 {color: #EF3223}
+      p {font-size: x-large;}
+      ul li {margin-top: 5cm;}
+
+      #object{
+        background-color: brown;
+        height: auto;
+        width: auto;
+        position: relative;
+      }
+      table{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: chartreuse;
+      }
+      
+      
+    </style>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
   </head>
   <body>
-    <h1>Information about [Your name here]</h1>
+    <header>
+      <h6>This is my header!</h6>
+    </header>
+    <h1>Information about Winston Lewis</h1>
     <p>
-      [Self introduction]
+      My name is Winston Lewis, and I am in the class of 2025.
     </p>
     <p>
-      [Major and other information]
+      I am a computer science major. 
+      Some of the other courses I have taken are Human Computer Interaction, Algorithms, and Operating Systems.
     </p>
     <p>
-      [Other things]
+      I enjoy running, playing video games, making music, and hanging out with friends.
     </p>
-
+    <table>
+      <tr>
+        <th>Jimmy</th>
+        <th>Danny</th>
+        <th>Tiberius</th>
+      </tr>
+      <tr>
+        <th>Neutron</th>
+        <th>Phantom</th>
+        <th>Turner</th>
+      </tr>
+    </table>
     <h2>Experience</h2>
     <p>
-      Working experience
+      I have a lot of experience with Java. I have some experience with HTML, CSS, JavaScript, Python, and unit testing.
+      I have no experience with Ruby.
     </p>
     <ul>
       <li>IBM/Rational</li>
       <li>WPI</li>
-    </ul>
+    </ul> 
+    <!---->
+    <div id = "object">
+      <p>
+        SCHOOL!!
+      </p>
+    </div>
+
+    <h3>Check out my link!</h3>
+    <p><a href="https://www.youtube.com">Youtube</a></p>
+
+    <h4>Numbers Image</h4>
+    <img src = "https://www.publicdomainpictures.net/pictures/160000/velka/matrix-1460603554sdB.jpg" alt = "Matrix" width = 200px height = 400px>
+<script>
+
+function objectMotion (){
+  const object = document.getElementById('object');
+  let currentRight = parseInt(window.getComputedStyle(object).right, 10);
+  const objectWidth = object.offsetWidth;
+  const screenWidth = window.innerWidth;
+
+  setInterval(()=>{
+
+    currentRight += 10;
+    object.style.right = currentRight + 'px';
+
+    if(currentRight > screenWidth){
+      currentRight = -objectWidth;
+    }
+
+    
+  }, 250);
+}
+window.onload = objectMotion;
+</script>
+<footer>
+  <h7>This is my footer.</h7>
+</footer>
   </body>
 </html>
