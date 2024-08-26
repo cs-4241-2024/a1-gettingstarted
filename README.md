@@ -101,4 +101,4 @@ This project shows ...
 
 ### Design Achievements
 - **Used the Moderustic Font from Google Fonts**: Used the Moderustic font for the entire webpage
-- **Used adobe color palette**: Used all five colors shown on the color palette, located in the project directory
+- **Used adobe color palette**: Used the five colors shown on the color palette, located in the project directory
