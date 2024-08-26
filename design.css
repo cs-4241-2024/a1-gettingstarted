@@ -1,0 +1,35 @@
+body{
+    padding-left: 25px;
+    background-color: lightpink;
+    font-family: "Nunito", sans-serif;
+}
+
+@keyframes example {
+    0% {color: darkmagenta;}
+    25% {color: magenta;}
+    50% {color: hotpink;}
+    100% {color: lightpink;}
+}
+h1{
+    padding-top: 20px;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+table{
+    border: 2px solid;
+    border-collapse: collapse;
+    width: 50%
+}
+
+thead{
+    border: 1px solid;
+}
+
+th, td{
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid;
+}
