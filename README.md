@@ -96,7 +96,9 @@ http://a1-charlieroberts.glitch.me
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, and a selectors...
+- **Styled page with CSS**: Added styles for the table elements, footer, h1, h2, and body
+- **Semantic HTML tags**: Used link, table, and footer elements
 
 ### Design Achievements
-- **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
+- **Used the Moderustic Font from Google Fonts**: Used the Moderustic font for the entire webpage
+- **Used adobe color palette**: Used all five colors shown on the color palette, located in the project directory
