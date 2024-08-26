@@ -1,0 +1,39 @@
+body {
+    font-family: "Moderustic", sans-serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+    width: 50%;
+}
+
+th {
+    height: 30px;
+    background-color: #ABD966;
+}
+
+td {
+    background-color: #DFF29B;
+}
+
+td, th {
+    padding: 5px;
+}
+
+footer {
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    color: white;
+    background-color: #3B6FD9;
+}
+
+h1 {
+    color: #4A88D9;
+}
+
+h2 {
+    color: #79C4F2;
+}
+
