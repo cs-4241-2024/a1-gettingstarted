@@ -1,4 +1,5 @@
 Winston Lewis: http://a1-twinz300.glitch.me
+
 This project shows ...
 
 ## Technical Achievements
@@ -15,7 +16,7 @@ Changed ul li margin-top to 5cm.
 **Added a simple Java animation:**
 
 
-			I created an animation where the text “SCHOOL!!!” slides across the screen with a brown background, and returns to the screen once it disappears from the screen.
+I created an animation where the text “SCHOOL!!!” slides across the screen with a brown background, and returns to the screen once it disappears from the screen.
 
 
 **Experimented with other semantic html tags:**
