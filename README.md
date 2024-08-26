@@ -6,14 +6,10 @@ This project shows ...
 
 **Styled page with CSS:** 
 
-Changed the body background color to aqua.
-##
-Changed the color of h1 to magenta.
-##
-Changed font family of h2 to “Arial, Helvetica, sans-serif”.
-##
-Changed the font-size of p to x-large.
-##
+Changed the body background color to aqua. <br />
+Changed the color of h1 to magenta. <br />
+Changed font family of h2 to “Arial, Helvetica, sans-serif”. <br />
+Changed the font-size of p to x-large. <br />
 Changed ul li margin-top to 5cm.
 
 
@@ -26,14 +22,10 @@ I created an animation where the text “SCHOOL!!!” slides across the screen w
 **Experimented with other semantic html tags:**
 
 
-I utilized the table tag. I created a table that has 6 names and chartreuse as the background color.
-##
-I utilized the link tag. I created a link to Youtube.
-## 
-I utilized the image tag. I imported an image of matrix numbers.
-##
-I utilized the header tag. I created a header that says “This is my header!”
-##
+I utilized the table tag. I created a table that has 6 names and chartreuse as the background color. <br />
+I utilized the link tag. I created a link to Youtube. <br />
+I utilized the image tag. I imported an image of matrix numbers. <br />
+I utilized the header tag. I created a header that says “This is my header!” <br />
 I utilized the footer tag. I created a footer that says “This is my footer.”
 
 ## Design Achievements
