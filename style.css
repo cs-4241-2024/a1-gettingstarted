@@ -14,9 +14,20 @@ p{
     justify-content: center;
 }
 
-#top-left{
+#animation-canvas{
+    position:absolute;
     top: 0vh;
     left: 0vw;
     width: 100vw;
     height: 100vh;
+    z-index: 0;
+}
+
+#static-canvas{
+    position:relative;
+    top: 0vh;
+    left: 0vw;
+    width: 99vw;
+    height: 99vh;
+    z-index: 1;
 }
