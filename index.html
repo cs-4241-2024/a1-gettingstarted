@@ -1,28 +1,88 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>CS4241 Assignment 1</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
+<head>
+  <title>CS4241 Assignment 1</title>
+  <meta charset="utf-8">
 
-    <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
-  </body>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Abril Fatface', cursive;
+    }
+
+    @keyframes colorChange {
+      0% { background-color: #ff9999; }
+      50% { background-color: #99ccff; }
+      100% { background-color: #ff9999; }
+    }
+
+    h1 {
+      animation: colorChange 5s infinite;
+      padding: 10px;
+      text-align: center;
+      transition: all 0.5s ease;
+    }
+  </style>
+</head>
+<body>
+<h1>Information about Ash Kittur</h1>
+<p>
+  My name is Ash Kittur, class of '25 at WPI.
+</p>
+<p>
+  My major is Computer Science and my minor is Data Science.
+</p>
+<p>
+  My previous CS courses taken are:
+<ul>
+  <li>CS1101 - Introduction to Computer Science</li>
+  <li>CS2102 - Object-Oriented Programming</li>
+  <li>CS2303 - Systems Programming</li>
+  <li>CS2011 - Machine Organization</li>
+  <li>CS2223 - Data Structures and Algorithms</li>
+  <li>CS2022 - Discrete Mathematics</li>
+  <li>CS3043 - Social Implications</li>
+  <li>CS3133 - Foundations of Computer Science</li>
+  <li>CS3431 - Database Systems </li>
+  <li>CS3733 - Software Engineering</li>
+  <li>CS4804 - Data Visualization</li>
+</ul>
+<p> My prior experience with relevant languages/technologies:
+<ul>
+  <li>HTML - A lot </li>
+  <li>CSS - A lot</li>
+  <li>Java - A lot</li>
+  <li>JavaScript - A lot</li>
+  <li>Ruby - None</li>
+  <li>Python - A lot</li>
+  <li>Unit Testing - Some</li>
+</ul>
+</p>
+
+<h2>Experience</h2>
+<p>
+  Working experience
+</p>
+<ul>
+  <li>Autodesk - Data Engineer Intern</li>
+  <li>Give Something Back To Berlin - Technical Consultant Intern</li>
+  <li>Liberty Mutual Investments - Software Engineer Intern</li>
+</ul>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const h1Element = document.querySelector("h1");
+    let colors = ["red", "blue", "green", "purple", "orange"];
+    let currentColorIndex = 0;
+
+    setInterval(() => {
+      h1Element.style.color = colors[currentColorIndex];
+      currentColorIndex = (currentColorIndex + 1) % colors.length;
+    }, 1000);
+  });
+</script>
+
+</body>
 </html>
+
