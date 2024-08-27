@@ -7,7 +7,7 @@ window.onload = function () { //need window.onload so that you call the element 
     //setup
     var draw_blob = function(which_color, how_big, radius, context){
         context.beginPath();
-        context.strokeStyle =  which_color;
+        context.strokeStyle = palette[which_color] || which_color; //in case i want to input a color for testing rn
         context.lineWidth = how_big;
         context.arc(0, 0, radius, 0, 2 * Math.PI);
         context.stroke();
@@ -17,7 +17,7 @@ window.onload = function () { //need window.onload so that you call the element 
     var static = document.getElementById("static-canvas");
     var info = static.getContext("2d");
 
-    draw_blob("blue", 25, 100, info); //ok its working but it's getting cleared
+    draw_blob("blue", 75, 175, info); //change blue to 0; 0 index in palette is bg color
 
     //animated blobs
     var animation = document.getElementById("animation-canvas");
