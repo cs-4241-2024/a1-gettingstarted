@@ -10,7 +10,7 @@
   </header>
   <body>
     <section>
-      <h1>Information about Justin Smith</h1>
+      <h1>Information about Myself</h1>
       <p>
         My name is Justin Smith. I am currently a Senior at WPI, and in the Class of 2025.
       </p>
@@ -62,22 +62,25 @@
     </section>
 
     <section>
-      <h2>A Table</h2>
+      <h2>Each Year at WPI</h2>
       <table>
         <tr>
-          <th>Head 1</th>
-          <th>Head 2</th>
-          <th>Head 3</th>
+          <th>2021-2022</th>
+          <th>2022-2023</th>
+          <th>2023-2024</th>
+          <th>2024-2025</th>
         </tr>
         <tr>
-          <td>Info 1</td>
-          <td>Info 2</td>
-          <td>Info 3</td>
+          <td>Freshman Year</td>
+          <td>Sophomore Year</td>
+          <td>Junior Year</td>
+          <td>Senior Year</td>
         </tr>
         <tr>
-          <td>Info 4</td>
-          <td>Info 5</td>
-          <td>Info 6</td>
+          <td>First college year</td>
+          <td>Began IQP</td>
+          <td>Began preparing for Masters' program</td>
+          <td>Began MQP</td>
         </tr>
       </table>
     </section>
@@ -91,7 +94,6 @@
     </div>
 
     <script>
-      //Change script later
       function simpleAnim() {
       let id = null;
       const elem = document.getElementById("animate");   
@@ -100,11 +102,17 @@
       id = setInterval(frame, 2);
       function frame() {
         if (pos == 350) {
+          while(pos != 0) {
+            pos--;
+            elem.style.top = pos + "px"; 
+            elem.style.right = pos + "px";
+          }
+          elem.style.left = pos + "px";
           clearInterval(id);
         } else {
           pos++; 
           elem.style.top = pos + "px"; 
-          elem.style.left = pos + "px"; 
+          elem.style.bottom = pos + "px"; 
         }
       }
     }
