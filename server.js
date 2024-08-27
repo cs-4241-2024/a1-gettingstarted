@@ -10,6 +10,9 @@ const server = http.createServer( function( request,response ) {
     case '/index.html':
       sendFile( response, 'index.html' )
       break
+    case '/style.css':
+      sendFile(response, 'style.css', 'text/css')
+      break
     default:
       response.end( '404 Error: File Not Found' )
   }
@@ -21,4 +24,10 @@ const sendFile = function( response, filename ) {
    fs.readFile( filename, function( err, content ) {
      response.end( content, 'utf-8' )
    })
+}
+
+const rotated = document.getElementById("rotated");
+function rotateImage()
+{
+  rotated.style.transform = "rotate(90deg)";
 }
