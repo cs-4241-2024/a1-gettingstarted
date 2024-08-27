@@ -1,0 +1,22 @@
+html{
+    background-color: #AFF04D;
+}
+
+header{
+    color:red;
+
+}
+
+p{
+    display: flex; 
+    /*flex-direction: column;*/
+    align-items: center;
+    justify-content: center;
+}
+
+#top-left{
+    top: 0vh;
+    left: 0vw;
+    width: 50vw;
+    height: 50vh;
+}
