@@ -84,13 +84,15 @@ If you need a Git/GitHub refreseher, see [GitHub Bootcamp](https://help.github.c
 Sample Readme (delete the above when you're ready to submit, and modify the text below with your links and descriptions)
 ---
 
-Charlie Roberts
-http://a1-charlieroberts.glitch.me
+Nandita Kumar
+http://a1-mknandita.glitch.me
 
-This project shows ...
+This project shows the specified information about me against an animated background.
 
 ## Technical Achievements
 - **Styled page with CSS**: Added rules for the p, li, and a selectors...
+- **Implemented a JavaScript animation**: Used the HTML canvas, CSS styling, and a JS animation script to create a continuously moving, color-changing background by repeatedly drawing, clearing, and redrawing a bit larger a shape in a cycling array of colors (my Adobe color palette).
 
 ### Design Achievements
+- **Created and utilized a color palette**: A screenshot of the palette can be found [in this repository](/palette.jpg)
 - **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
