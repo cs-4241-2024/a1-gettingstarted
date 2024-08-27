@@ -1,0 +1,21 @@
+li {
+    font-style: italic;
+}
+
+p.Centered {
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+    font-style: italic;
+    color: maroon;
+}
+
+img {
+    max-width: 90%;
+}
+
+body {
+    background-image: linear-gradient(violet, white);
+}
