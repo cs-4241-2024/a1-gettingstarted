@@ -89,6 +89,13 @@ http://a1-mknandita.glitch.me
 
 This project shows the specified information about me against an animated background.
 
+## TTD
+- get multiple blobs going at once
+- turn blobs into sin wave-esque things that are diagonally positioned on the canvas but are moving in the x and y directions (so its like a wave)(this would be so cool but so hard)
+- add info to static block (prob do this first.....)
+- use svgs or something bc things are SO PIXELATED D:
+
+
 ## Technical Achievements
 - **Styled page with CSS**: Added rules for the p, li, and a selectors...
 - **Implemented a JavaScript animation**: Used the HTML canvas, CSS styling, and a JS animation script to create a continuously moving, color-changing background by repeatedly drawing, clearing, and redrawing a bit larger a shape in a cycling array of colors (my Adobe color palette).
