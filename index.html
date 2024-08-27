@@ -1,28 +1,84 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>CS4241 Assignment 1</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
+<head>
+  <title>CS4241 Assignment 1</title>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: #F2AA79; font-family: 'Roboto', Arial, sans-serif; padding: 20px;">
 
-    <h2>Experience</h2>
-    <p>
-      Working experience
+<header style="background-color: #DEC90B; padding: 15px; color: white; text-align: center; border-radius: 8px;">
+  <h1>Vidushi Meel's Portfolio</h1>
+  <nav>
+    <a href="#experience" style="color: #f9fafb; text-decoration: none; margin-right: 20px;">Experience</a>
+    <a href="#internships" style="color: #f9fafb; text-decoration: none;">Internships</a>
+  </nav>
+</header>
+
+<main id="content" style="border: 1px solid #D91C84; padding: 20px; border-radius: 8px; margin-top: 20px; background-color: #E63E79; color: white; opacity: 0; transition: opacity 2s;">
+  <section>
+    <h2 style="color: #F457FA; margin-bottom: 10px;">About Me</h2>
+    <p style="margin-bottom: 10px;">
+      I'm a computer science major graduating in 2026.5 (I took a gap year!)
     </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
+    <p style="margin-bottom: 10px;">
+      I haven't taken very many CS classes at WPI yet. I used to go to Northeastern, but left before I could take any CS classes. I've taken object oriented programming at WPI, and systems programming. I also took CS 571.
+    </p>
+    <p style="margin-bottom: 10px;">
+      I'm fluent in all of the listed languages besides Rust. However, I'm excited to learn Rust & Go!
+    </p>
+  </section>
+
+  <section id="experience" style="margin-top: 30px;">
+    <h2 style="color: #F457FA; margin-bottom: 10px;">Experience</h2>
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+      <thead>
+      <tr style="background-color: black;">
+        <th style="text-align: left; padding: 8px;">Position</th>
+        <th style="text-align: left; padding: 8px;">Company</th>
+        <th style="text-align: left; padding: 8px;">Role</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td style="padding: 8px;">Software Engineer & UI Designer</td>
+        <td style="padding: 8px;">Juno UX</td>
+        <td style="padding: 8px;">Current</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px;">Founding Software Engineer & UI Designer</td>
+        <td style="padding: 8px;">Linkto.art</td>
+        <td style="padding: 8px;">Past</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px;">Software (Docs) Engineer</td>
+        <td style="padding: 8px;">Snorkel AI</td>
+        <td style="padding: 8px;">Past</td>
+      </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="internships">
+    <h2 style="color: #F457FA; margin-bottom: 10px;">Internships</h2>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+      <li style="margin-bottom: 5px; color: #f9fafb;">SWE Intern @ Formlabs</li>
+      <li style="margin-bottom: 5px; color: #f9fafb;">SWE Intern @ Blues Wireless</li>
+      <li style="margin-bottom: 5px; color: #f9fafb;">SWE Intern @ Intel</li>
+      <li style="margin-bottom: 5px; color: #f9fafb;">SWE Intern @ KTByte</li>
     </ul>
-  </body>
+  </section>
+</main>
+
+<footer style="background-color: #D91C84; padding: 10px; color: white; text-align: center; margin-top: 20px; border-radius: 8px;">
+  <p>Connect with me: <a href="https://www.linkedin.com/in/vidushimeel/" target="_blank" style="color: #F457FA; text-decoration: none;">LinkedIn</a></p>
+</footer>
+
+<script>
+  window.onload = function() {
+    var content = document.getElementById('content');
+    content.style.opacity = 1;
+  };
+</script>
+</body>
 </html>
