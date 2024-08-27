@@ -1,7 +1,7 @@
 Assignment 1 - Getting Started
 
 Thomas O'Leary
-http://a1-charlieroberts.glitch.me
+http://a1-thomasjoleary.glitch.me
 
 This project shows a website containing some information about me, both corresponding to the class and about my hobbies and goals.
 
