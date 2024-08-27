@@ -1,0 +1,42 @@
+body {
+    font-family: "New Amsterdam", sans-serif;
+    background-color: #A59B94;
+    border: 2px solid #FABB8E;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border: #7A6759 solid;
+}
+
+h1 {
+    font-size: 28px;
+    color: #523018;
+}
+
+h2 {
+    font-size: 20px;
+    color: #7A6759;
+}
+
+table, th, td {
+    border: 1px solid #332114;
+}
+
+td {
+    text-align: center;
+}
+
+caption{
+    font-size: 14px;
+}
+
+table{
+    background-color: #CFB099;
+}
+
+footer {
+    color: #523018;
+}
+
