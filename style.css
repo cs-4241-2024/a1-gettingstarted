@@ -1,0 +1,17 @@
+/* style.css */
+body {
+    background-color: #C2E9E7; 
+    color: #AD5223; 
+    font-family: Arial, sans-serif; 
+}
+h1 {
+  color:#EBAA88;
+}
+
+li{
+  color:#6B574D;
+}
+
+footer{
+  color: #859695;
+}
