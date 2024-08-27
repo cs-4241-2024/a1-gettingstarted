@@ -99,4 +99,5 @@ This project shows ...
 - **Styled page with CSS**: Added rules for the p, li, and a selectors...
 
 ### Design Achievements
-- **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
+- **Used the Inter Font from Google Fonts**: I used Inter as the font for the text on my site. I also utilized its custom weights to make my headings appear bolder than the rest of the page.
+- **Used the Color Palette from Adobe**: I utilized all the different colors in the palette I generated on my website. Each heading is a different color, the text and list elements are different colors, and the background is a color from the palette I generated and included in my repository.
