@@ -1,0 +1,32 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    background-color: #CEE4F2;
+}
+
+h1 {
+    color:#00DB46;
+    font-weight: 800;
+}
+
+h2 {
+    color:#12DB89;
+    font-weight: 800;
+}
+
+h3 {
+    color:#12DBC0;
+    font-weight: 800;
+}
+
+p {
+    color:#00BFDB;
+}
+
+p1 {
+    color:#00BFDB;
+}
+
+li {
+    color:#0087DB;
+}
