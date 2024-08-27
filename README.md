@@ -2,7 +2,7 @@ Assignment 1: Hello World
 ---
 
 Carter Moore
-http://a1-charlieroberts.glitch.me
+https://a1-cratermore.glitch.me/
 
 This project is a one-page Node.js site that includes a Node server script, index.html file, and a CSS stylsheet. The site showcases using CSS to style elements, serving files to the client with Node, and incorporating multiple HTML elements.
 
