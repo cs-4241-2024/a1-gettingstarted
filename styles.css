@@ -1,0 +1,98 @@
+:root {
+    --brown:#493935;
+    --deep-purple:#3F0F33;
+    --purple: #865363;
+    --light-brown:#CD9692;
+    --white:#FFFFFF;
+    --gray:#6C676E;
+}
+
+table {
+    border: 5px solid;
+    border-color: #3F0F33;
+    background-color: #49393575 ;
+    border-spacing: 10px;;
+    color: #FFFFFF;
+}
+
+body {
+    background-image: linear-gradient(#CD9692, #865363, #3F0F33 );
+    background-size: auto;
+    cursor: url("cow_fr.png") 0 0, auto;
+    overflow-x: hidden;
+    color: #FFFFFF;
+}
+#multi-color{
+
+}
+.honk-multi-color {
+   font-family: "Honk", system-ui;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-variation-settings:
+           "MORF" 15,
+           "SHLN" 50;
+}
+h1{
+    animation: loop 15s linear infinite;
+    text-align: center;
+    justify-content: space-evenly;
+    width: auto;
+    white-space: nowrap;
+    font-family: "Honk", system-ui;
+    font-size: xx-large;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+            "MORF" 15,
+            "SHLN" 50;
+}
+h2{
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+            "MORF" 15,
+            "SHLN" 50;
+}
+h3{
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+            "MORF" 15,
+            "SHLN" 50;
+}
+@keyframes loop {
+    0% {transform: translateX(0%);}
+    25% {transform: translateX(35%);}
+    50% {transform: translateX(0%);}
+    75% {transform: translateX(-35%);}
+    100% {transform: translateX(0%);}
+ }
+#cloud {
+    background-image: url("rain_cloud.gif");
+    background-size: auto;
+    height: 520px;
+    width: 470px;
+    margin: auto;
+}
+thead{
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+            "MORF" 15,
+            "SHLN" 50;
+}
+
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-size: xx-large;
+    font-style: normal;
+}
