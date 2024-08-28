@@ -9,7 +9,7 @@ window.onload = function () { //need window.onload so that you call the element 
         context.beginPath();
         context.strokeStyle = palette[which_color] || which_color; //in case i want to input a color for testing rn
         context.lineWidth = how_big;
-        context.arc(-25, -25, radius, 0, 2 * Math.PI); //if at (0,0), line weight of 25 looks like it just appears on the page
+        context.arc(-25, -25, radius, 0, (3 * Math.PI)/2); //if at (0,0), line weight of 25 looks like it just appears on the page
         context.stroke();
     }
 

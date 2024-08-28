@@ -2,8 +2,35 @@
 
 html{
     background-color: #4D2E5C;
-    overflow-x: hidden;
+    overflow-x: hidden; 
+    overflow-y: hidden;
 }
+
+footer{
+    position:absolute;
+    z-index: 2;
+    text-align: center;
+    background-color: #4D2E5C;
+
+    right: 2vw;
+    bottom: 2vh;
+
+     border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+a:link {
+    color:#70862D;
+}
+
+a:hover {
+    color:#A5DB00;
+}
+
+a:visited {
+    color: #77279c;
+  }
 
 div{
     position: absolute;
@@ -22,7 +49,7 @@ div{
 h1{
     color:#A5DB00;
     position: relative;
-    top: 76vh; /*this seems counterintuitive -- mess with and see what im talking about*/
+    top: 75vh; /*this seems counterintuitive -- mess with and see what im talking about*/
     left: 5vw;
     width: 45vw;
     font-size: 8vh;
@@ -33,9 +60,27 @@ h1{
     border-style: solid; */
 }
 
+img {
+    position:absolute;
+    z-index: 3;
+    width: 33vw;
+    height: auto;
+}
+
+#top-motif{
+    transform: rotate(180deg);
+    top: 2vh;
+    left: 38vw;
+}
+
+#bottom-motif{
+    top: 60vh;
+    left: 20vw;
+}
+
 #details{
-    left: 42vw;
-    top: 25vh;
+    left: 47vw;
+    top: 18vh;
     width: 32vw;
     height: auto;
     margin: 0;
