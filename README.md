@@ -90,10 +90,12 @@ http://a1-mknandita.glitch.me
 This project shows the specified information about me against an animated background.
 
 ## TTD
-- get multiple blobs going at once
 - turn blobs into sin wave-esque things that are diagonally positioned on the canvas but are moving in the x and y directions (so its like a wave)(this would be so cool but so hard)
-- add info to static block (prob do this first.....)
 - use svgs or something bc things are SO PIXELATED D:
+- sometimes buffer between blobs gets finicky (prob line weight for adjacent ones are both big) so they overlap and look jank -- fix this
+- FIX MEGABLOB WTF?? (a bunch of blobs load together at once and are mishmashed tho not janky? just mega)
+- find out why the bg anim doesn't work when window is smaller (feel like this will be an issue on glitch....)
+- figure out how to clear offscreen graphics to save processing power (for now check bottom right corner)
 
 
 ## Technical Achievements
