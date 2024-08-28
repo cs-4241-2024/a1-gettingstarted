@@ -1,0 +1,60 @@
+body {
+    background-color: #6A7C53;
+    color: #2D1F00;
+    font-family: "Space Mono", monospace;
+}
+
+table {
+    background-color: #8F881A;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+    border: 1px solid #8F881A;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    background-color: #E0D8BD;
+}
+h1 {
+    background-color: #E0D8BD;
+    text-align: center;
+}
+
+h2 span{
+    background-color: #E0D8BD;
+}
+
+button {
+    background-color: #647025;
+    font-family: "Space Mono", monospace;
+}
+
+img {
+    max-width: 100%;
+}
+
+.imageBox {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sukiImage, .hobbsImage {
+    padding: 10px;
+}
+
+.invisibleWoof {
+    word-wrap: break-word;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .imageBox {
+        max-width: 80%;
+    }
+}
