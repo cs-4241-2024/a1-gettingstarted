@@ -9,7 +9,8 @@ This project is a simple webpage that has a little bit of information about me a
 
 ## Technical Achievements
 - **Styled page with CSS**: Added rules for the body, p, li, h1, h2, h4, and h5 selectors.
-- **Added Flexbox**: Made the website a little responsive by introducing flexbox for visual formatting reasons.
+  - **Added Flexbox**: Made the website a little responsive by introducing flexbox for visual
+    formatting reasons.
 
 ### Design Achievements
 - **Applied a Color Palette**: I used the background image to generate a color palette that was applied to all text elements.
