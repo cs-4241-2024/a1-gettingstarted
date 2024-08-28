@@ -8,7 +8,7 @@ This project shows that I have basic skills in Git and have followed the instruc
     - `body`: Background color, text color, texr font.
     - `h1`, `h2`, `h3`: Text color.
     - `a`: Text color.
-    - `table`, `th`, `tr`: 
+    - `table`, `th`, `tr`: Border style and color.
 - **Added semantic HTML tags:** Link, table.
 
 ### Design Achievements
