@@ -1,5 +1,5 @@
 //color palette
-const palette = ["#AFF04D", "#71E649", "#D2D950", "#F0E24D", "#E6C849"]
+const palette = ["#4D2E5C", "#77279C", "#70862D", "#9600DB", "#A5DB00"]
 
 
 var id = null;
@@ -12,6 +12,17 @@ window.onload = function () { //need window.onload so that you call the element 
         context.arc(0, 0, radius, 0, 2 * Math.PI);
         context.stroke();
     }
+
+    //blob start values
+    var dist = 0;
+    var which_color = 1; //index of current color from palette array, skipping index 0 which is the background
+    var how_big = 5; 
+
+    //rand color + updater
+    var rand_color = Math.floor((Math.random()*4) + 1);
+    function update_rand_color(){ 
+        rand_color = Math.floor((Math.random()*4) + 1); //index 1-4, exclude 0 (bg)
+    }
    
     //static info blob
     var static = document.getElementById("static-canvas");
@@ -22,32 +33,57 @@ window.onload = function () { //need window.onload so that you call the element 
     //animated blobs
     var animation = document.getElementById("animation-canvas");
     var anim = animation.getContext("2d");
-    var size = 0;
-    var which_color = 1; //index of current color from palette array, skipping index 0 which is the background
-    var how_big = 5; 
 
-    //clearInterval(id);
+    function animate_blob(dist, color, how_big){
 
-    id = setInterval(frame, 25);
+        let start_animation = setInterval(erase_and_draw, 25);
+
+        function erase_and_draw(){
+            draw_blob(palette[0], how_big + 3, dist, anim); //clear
+            //anim.clearRect(0, 0, 1000, 1000); //see above (to get multiple blobs at once, clear right away by immediately redrawing over it in bg color)
+            //console.log(c.style.width); this is an empty string -- why? even if changed to pxls in style.css
+            //anim.clearRect(c.style.left, c.style.top, c.style.width, c.style.height);
+            dist++;
+            draw_blob(color, how_big, dist, anim); //draw
+            console.log(dist);
+            update_rand_color();
+
+            if(dist > 45){
+                clearInterval(start_animation);
+            }
+        }
+    }
+
+    animate_blob(dist, rand_color, how_big)
+    animate_blob(dist+10, rand_color, how_big)
+    //setInterval(animate_blob(dist, rand_color, how_big), 10);
+
+    //id = setInterval(frame, 25);
+/*
     function frame() {
-    if (size == 450) {
+    if (dist == 45) {
         //clearInterval(id); //stop animation
-        anim.clearRect(0, 0, 1000, 1000);
-        size = 0;
+        //anim.clearRect(0, 0, 1000, 1000);
+        draw_blob(palette[0], how_big + 3, dist, anim);
+        dist = 0;
         how_big = (Math.random() * 25) + 5; //line weight between 5 and 25
-        if (which_color != palette.length){
+        if (which_color != palette.length-1){
             which_color++;
         }else{
             which_color = 1; //reset if at end of array
         }
     } else {
-        anim.clearRect(0, 0, 1000, 1000);
+        //draw_blob(palette[0], how_big + 3, dist, anim); //clear
+        //anim.clearRect(0, 0, 1000, 1000); //see above (to get multiple blobs at once, clear right away by immediately redrawing over it in bg color)
         //console.log(c.style.width); this is an empty string -- why? even if changed to pxls in style.css
         //anim.clearRect(c.style.left, c.style.top, c.style.width, c.style.height);
-        size++;
-        draw_blob(which_color, how_big, size, anim); 
+        //dist++;
+        //draw_blob(which_color, how_big, dist, anim); //draw
+        
     }
-  }
+    
+  }*/
+
 
     
 }
