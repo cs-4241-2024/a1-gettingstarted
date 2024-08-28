@@ -1,4 +1,3 @@
-
 p {
   font-family: Overlock;
   font-size: 20px;
@@ -6,24 +5,21 @@ p {
 
 .card {
   background-color: transparent;
-  font-family: Overlock;
   width: 300px;
   height: 200px;
   border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px; 
 }
 
 
 .card-inner {
   position: relative;
-  font-family: Overlock;
   width: 100%;
   height: 100%;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
-
 
 .card:hover .card-inner {
   transform: rotateY(180deg);
@@ -34,7 +30,7 @@ p {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
@@ -46,21 +42,10 @@ p {
 
 
 .card_face_back {
-  font-family: Overlock;
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
 }
-
-.card_face_front {
-  font-family: Overlock;
-  background-color: #bbb;
-  color: black;
-}
-
-/* Style the back side */
-.card_face_back {
-  background-color: dodgerblue;
-  color: white;
-  transform: rotateY(180deg);
+body {
+  background-color: #ffffff;
 }
