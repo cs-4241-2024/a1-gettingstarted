@@ -28,13 +28,28 @@ body {
 	background-color: dodgerblue;
 }
 
+table {
+	margin-top: 10px;
+	font-family: Bangers;
+	border: 6px solid red;
+	background-color: rgb(255, 150, 150);
+	text-align: center;
+	padding: 10px;
+}
+
+td {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 a:link {
 	text-decoration: none;
+	color: blue;
 }
 
 a:visited {
 	text-decoration: none;
-	color: blue
+	color: navy;
 }
 
 a:hover {
@@ -43,4 +58,8 @@ a:hover {
 
 a:active {
 	text-decoration: underline;
+}
+
+.headerImage {
+	height: 50px;
 }
