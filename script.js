@@ -39,23 +39,26 @@ window.onload = function () { //need window.onload so that you call the element 
         let start_animation = setInterval(erase_and_draw, 25);
 
         function erase_and_draw(){
-            draw_blob(palette[0], how_big + 3, dist, anim); //clear
+            draw_blob(palette[0], how_big + 1, dist, anim); //clear
             //anim.clearRect(0, 0, 1000, 1000); //see above (to get multiple blobs at once, clear right away by immediately redrawing over it in bg color)
             //console.log(c.style.width); this is an empty string -- why? even if changed to pxls in style.css
             //anim.clearRect(c.style.left, c.style.top, c.style.width, c.style.height);
             dist++;
             draw_blob(color, how_big, dist, anim); //draw
-            console.log(dist);
-            update_rand_color();
+            console.log(rand_color);
 
-            if(dist > 45){
+            if(dist > 450){
                 clearInterval(start_animation);
             }
         }
     }
 
-    animate_blob(dist, rand_color, how_big)
-    animate_blob(dist+10, rand_color, how_big)
+    bg = setInterval(animate_background, 500)
+    function animate_background(){
+        animate_blob(dist, rand_color, how_big)
+        update_rand_color();
+    }
+
     //setInterval(animate_blob(dist, rand_color, how_big), 10);
 
     //id = setInterval(frame, 25);
