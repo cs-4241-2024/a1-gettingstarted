@@ -9,9 +9,9 @@ This project shows ...
 ## Technical Achievements
 - **Styled page with CSS**: Added style rules for the p, body, header, footer, h, ul, and animation container.
                             Modified the font size for the body & p, the font color for most text, and added a background color.
-                            I also modified the heading for h containers, the width/height of the animation container, 
-                            and a color gradient for the header and footer. Finally, I also aligned text for the table 
-                            towards the center, made the header table sections italicized and bolded, 
+                            I also added an opacity to the main page body, modified the heading for h containers, 
+                            the width/height of the animation container, and a color gradient for the header and footer. 
+                            Finally, I also aligned text for the table towards the center, made the header table sections italicized and bolded, 
                             and created a border for the header & table contents and another outline for the animation container.
 - **JavaScript Animation**: Added a simple moving square to the page that jumps back to starting position.
 - **Semantic HTML tags**: I created a header and footer, alongside a displayed image on the page. 
@@ -20,4 +20,4 @@ This project shows ...
 
 ### Design Achievements
 - **Used an Adobe Color Palette**: The Color Palette used is in the repo.
-- **Used the Georgia Font from Google Fonts**: I used Georgia as the font for all of the text present on the page.
+- **Used the Ubuntu Font from Google Fonts**: I used Ubuntu as the font for all of the text present on the page.

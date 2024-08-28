@@ -13,7 +13,7 @@ const server = http.createServer( function( request,response ) {
     case '/styles.css':
       sendFile( response, 'styles.css' )
       break
-    case 'C:/Adobe Color Wheel.png':
+    case '/Adobe Color Wheel.png':
       sendFile( response, 'Adobe Color Wheel.png' )
     default:
       response.end( '404 Error: File Not Found' )
