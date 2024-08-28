@@ -1,0 +1,28 @@
+body {
+    font-family: 'PT Serif', serif;
+    background-color: #e2c8b7;
+    padding: 20px;
+}
+
+h1, h2, p, ul li {
+    margin-bottom: 15px;
+    transition: font-size 0.5s ease; 
+    color: #4A423C;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    background-color: #0807037a;
+    color: white;
+}
+
+.button:hover {
+    background-color: #000000;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    color: #A60C3C;
+}
