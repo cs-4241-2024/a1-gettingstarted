@@ -14,4 +14,6 @@ This project is a simple webpage that has a little bit of information about me a
 
 ### Design Achievements
 - **Applied a Color Palette**: I used the background image to generate a color palette that was applied to all text elements.
+![image](https://github.com/user-attachments/assets/5c06e33f-f73f-4da1-a3fe-2bb0b2f70d28)
+
 - **Used the Montserrat Font from Google Fonts**: I used Montserrat as the font for the primary copy text in my site.
