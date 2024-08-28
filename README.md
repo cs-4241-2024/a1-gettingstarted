@@ -3,7 +3,7 @@ https://a1-vivekjag1.glitch.me
 
 
 
-This project shows ...
+This project shows the ability to create a static website in html, and the ability to use advanced html markup tags, javascript animations, and colors. 
 
 ## Technical Achievements
 - **Styled page with CSS**: Added rules for the body, h1, h2, p, footer, img tr, td, th

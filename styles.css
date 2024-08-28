@@ -8,10 +8,10 @@ h1{
     text-align:center;
     transition: transform 1s;
 }
-h1:hover{ 
+/* h1:hover{ 
     transform: translateX(6%);
    
-}
+} */
 p { 
     font-family: "Poppins", sans-serif;
     font-weight: 400;

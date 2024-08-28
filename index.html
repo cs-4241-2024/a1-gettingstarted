@@ -16,7 +16,7 @@
 </head>
   <body>
     <header>
-      <h1 class="nameHeader">Vivek Jagadeesh</h1>
+      <h1 id="name" class="nameHeader">Vivek Jagadeesh</h1>
       <h2>WPI class of 2026</h2>
 
     </header>
@@ -25,14 +25,22 @@
     <script>
       const imageMove = [
         {transform: "translateX(100%)"}, 
-z    
+    ]; 
+    const nameMove = [
+        {transform: "translateX(5%)"}, 
     ]
     const imagemovetime = {
   duration: 1000,
   iterations: 1,
 };
+const namemovetime = {
+  duration: 1000,
+  iterations: 1,
+};
       const image = document.getElementById("wpiSvg.png"); 
       image.addEventListener("click", () => image.animate(imageMove,imagemovetime));
+      const name = document.getElementById("name"); 
+      name.addEventListener("click", () => name.animate(nameMove, namemovetime))
     </script>
     <p>Hover over the wpi image and my name for a fun animation!</p>
     
