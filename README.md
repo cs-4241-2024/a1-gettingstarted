@@ -44,6 +44,7 @@ This assignment requires that your website is both contained in a GitHub reposit
 6. Modify the README file according to the specification below.
 7. Commit and push all your changes to GitHub. 
 8. Deploy your project to Glitch. You can do this by [importing the repo from GitHub](https://medium.com/glitch/import-code-from-anywhere-83fb60ea4875)
+    Link to glitch: https://buttered-alive-tea.glitch.me
 9. Ensure that your project has the proper naming scheme (guide follows) so we can find it.
 9. Create and submit a Pull Request to the original repo.
 
