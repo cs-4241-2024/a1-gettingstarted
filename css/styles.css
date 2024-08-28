@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(192, 235, 229);
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.tiny5-regular {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(16, 33, 25);
+
+}
+
+.source-code-pro-regular {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(40, 82, 76);
+
+}
+
+.CatPicImg {
+    filter: drop-shadow(0 0 30px rgba(115, 174, 177));
+    width: 50%;
+    height: auto;
+    border: 8px solid rgb(86, 158, 176);
+}
+
+.CatPic {
+    text-align: center;
+    font-size: small;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        padding: 1rem 2rem;
+    }
+
+    /* Center function from https://www.w3schools.com/howto/howto_css_image_center.asp */
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+}
