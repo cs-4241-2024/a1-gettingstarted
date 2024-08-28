@@ -1,7 +1,6 @@
 Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
 ===
 
-My name is Eleanor Foley
 
 *DUE: Thursday, August 29st by 11:59 AM (before the start of class!)*  
 
