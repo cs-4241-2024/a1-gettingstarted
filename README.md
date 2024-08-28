@@ -18,11 +18,11 @@ This project shows ...
   -  a media query (was testing out what the reading assignment demonstrated, slightly adjusts the images and the margins on the sides of the screen when the screen is larger)
 -  **Added a simple JS animation**: Clicking the "secret" buttons animates the pictures
 -  **Used other HTML tags**
-   -  <table>
-   -  <img>
-   -  <footer>
-   -  <button>
-   -  <link> (to stylesheet and google font)
+   -  table
+   -  img
+   -  footer
+   -  button
+   -  link (to stylesheet and google font)
 
 ### Design Achievements
 - **Created a color palette**: #6A7C53, #8F881A, #E0D8BD, #647025, #2D1F00
