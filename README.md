@@ -17,3 +17,6 @@ This project is a simple webpage that has a little bit of information about me a
 ![image](https://github.com/user-attachments/assets/5c06e33f-f73f-4da1-a3fe-2bb0b2f70d28)
 
 - **Used the Montserrat Font from Google Fonts**: I used Montserrat as the font for the primary copy text in my site.
+
+Background Image Credit: Studio Ghibli - The Secret World of Arrietty
+https://steamuserimages-a.akamaihd.net/ugc/1758073114103109159/20B042641BF6359FEE0D9E96CE7D62205EB179A3/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false
