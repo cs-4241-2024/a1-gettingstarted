@@ -13,12 +13,4 @@ Created a color pallet on color Adobe: I used color Adobe to create a color pall
 ![Alt text](image.png)
 ![Alt text](image-1.png)
 
-First I added to the HTML all relevant information according to the specifications on the assigment.
-After that I changed the server.js to support script.js and css file where I could coustumize the website more easily. 
-Added a footer tag on the HTML and the wpi logo inside of it. 
-Added a google font
-Added a link.
-added multible unorder lists
-Created my color palet.
-In the CSS I made a new rule for the backgroun the toggle button and when hoovered for the animation also one for the fotter the image and text aling. 
 
