@@ -1,0 +1,158 @@
+/* palette = ["#4D2E5C", "#77279C", "#70862D", "#9600DB", "#A5DB00"] */
+
+html{
+    background-color: #4D2E5C;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}
+
+footer{
+    position:absolute;
+    z-index: 2;
+    text-align: center;
+    background-color: #4D2E5C;
+
+    right: 2vw;
+    bottom: 2vh;
+
+  /*border-width: 1px;
+    border-color: black;
+    border-style: solid; */
+}
+
+a:link {
+    color:#70862D;
+}
+
+a:hover {
+    color:#A5DB00;
+}
+
+a:visited {
+    color: #77279c;
+  }
+
+div{
+    position: absolute;
+    z-index: 2;
+
+    margin: 0;
+    padding: 0;
+    width: 75vw;
+    height: 95vh;
+
+   /*  border-width: 1px;
+    border-color: black;
+    border-style: solid; */
+}
+
+h1{
+    color:#A5DB00;
+    position: relative;
+    top: 75vh; /*this seems counterintuitive -- mess with and see what im talking about*/
+    left: 5vw;
+    width: 45vw;
+    font-size: 8vh;
+    font-family: "Beth Ellen";
+
+  /*   border-width: 1px;
+    border-color: black;
+    border-style: solid; */
+}
+
+img {
+    position:absolute;
+    z-index: 3;
+    width: 33vw;
+    height: auto;
+}
+
+#top-motif{
+    transform: rotate(180deg);
+    top: 2vh;
+    left: 38vw;
+}
+
+#bottom-motif{
+    top: 60vh;
+    left: 20vw;
+}
+
+#details{
+    left: 47vw;
+    top: 18vh;
+    width: 32vw;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: "Calligraffitti";
+
+/*     border-width: 1px;
+    border-color: black;
+    border-style: solid; */
+}
+
+p{
+    color: #70862D;
+    width: auto;
+    padding-top: 2vh;
+
+   /*  border-width: 1px;
+    border-color: black;
+    border-style: solid;    */
+}
+
+#first {
+    position: relative;
+    left: -2vw;
+}
+
+#second {
+    position: relative;
+    left: -5vw;
+}
+
+#third {
+    position: relative;
+    left: -8vw;
+}
+
+#fourth {
+    position: relative;
+    left: -11vw;
+    padding-top: 0vh;
+}
+
+#fifth {
+    position: relative;
+    left: -14vw;
+}
+
+#sixth {
+    position: relative;
+    left: -17vw;
+    padding-top: 0vh;
+}
+
+#seventh {
+    position: relative;
+    left: -20vw;
+}
+
+#animation-canvas{
+    position:absolute;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+}
+
+#static-canvas{
+    position:absolute;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
