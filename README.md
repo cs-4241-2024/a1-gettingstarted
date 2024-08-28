@@ -10,11 +10,11 @@ This project shows the specified information about me against an animated backgr
 - **Implemented a JavaScript animation**: Used the HTML canvas, CSS styling, and a JS animation script to create a continuously moving, color-changing background by repeatedly drawing, clearing, and redrawing a bit larger a shape in a cycling array of colors (my Adobe color palette).
 - **Included other semantic HTML tags**: Used the link, script, img, canvas, footer, and nav tags on the site.
 
-### Design Achievements
+## Design Achievements
 - **Created and utilized a color palette**: A screenshot of the palette can be found [in this repository](/palette.jpg)
 - **Used the Beth Ellen and Calligraffitti Font from Google Fonts**: The Beth Ellen font is used for my name, while the Calligraffitti font is used for the main text.
 
-## Things To Do Still
+### Things To Do Still
 - turn blobs into sin wave-esque things that are diagonally positioned on the canvas but are moving in the x and y directions (so its like a wave)(this would be so cool but so hard)
 - use svgs or something bc things are SO PIXELATED D:
 - sometimes buffer between blobs gets finicky (prob line weight for adjacent ones are both big) so they overlap and look jank -- fix this
