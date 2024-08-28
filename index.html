@@ -3,26 +3,177 @@
   <head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
-  </head>
-  <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
+    <!-- for the google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <script>
+      function scale() {
+        const suki = document.getElementById("suki");
+        const hobbs = document.getElementById("hobbs");
+        const sukiScale = [ { transform: "scale(1)"},
+                            { transform: "scale(1.1)" },
+                            { transform: "scale(1)" },
+                            { transform: "scale(0.9)" },
+                            { transform: "scale(1)" } ];
+        
+        const hobbsScale = [ { transform: "scale(1)" },
+                            { transform: "scale(0.9)" },
+                            { transform: "scale(1)" },
+                            { transform: "scale(1.1)" },
+                            { transform: "scale(1)" } ];
+        const time = {duration: 2000, iterations: 1};
+
+        suki.animate(sukiScale, time);
+        hobbs.animate(hobbsScale, time); 
+      }
+
+      function woof() {
+        const suki = document.getElementById("suki");
+        const hobbs = document.getElementById("hobbs");
+        const sukiBark = [ { transform: "translate(0%, 0%)"},
+                            { transform: "translate(0%, 5%)" },
+                            { transform: "translate(0%, 0%)" },];
+        
+        const hobbsBark = [ { transform: "translate(0%, 0%)"},
+                            { transform: "translate(0%, -5%)" },
+                            { transform: "translate(0%, 0%)" } ];
+        const time = {duration: 200, iterations: 1};
+
+        suki.animate(sukiBark, time);
+        hobbs.animate(hobbsBark, time); 
+
+        text = document.getElementById("invisibleWoof");
+        options = ["WOOF!\xa0", "BARK!\xa0", "RUFF!\xa0"];
+        text.innerHTML = text.innerHTML + options[Date.now() % 3];
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="introWrapper">
+      <h1>Information about Laura Pellowski</h1>
+      <p>
+        Hello! My name is Laura and I am class of 2025 at WPI. 
+      </p>
+      <p>
+        I am majoring in Computer Science and minoring in Mathematics.
+      </p>
+    </div>
+    
+    <div class="classesWrapper">
+      <p>Here is a table of CS classes I have taken so far:</p>
+        <table>
+          <tr>
+            <th>Term</th>
+            <th>1st year</th>
+            <th>2nd year</th>
+            <th>3rd year</th>
+          </tr>
+          <tr>
+            <td>A</td>
+            <td>CS1101, Intro to Program Design</td>
+            <td>CS2303, Systems Programming Concepts</td>
+            <td>CS3431, Database Systems I<br>
+                CS4536, Programming Languages</td>
+          </tr>
+          <tr>
+            <td>B</td>
+            <td>CS2102, Object Oriented Design Concepts</td>
+            <td>CS2011, Intro to Machine Org and Assembly<br>
+                CS3133, Foundations of CS</td>
+            <td>CS3043, Social Implications<br>
+                CS3733, Software Engineering<br>
+                CS4120, Analysis of Algorithms</td>
+          </tr>
+          <tr>
+            <td>C</td>
+            <td>CS2022, Discrete Math</td>
+            <td>CS3013, Operating Systems</td>
+            <td>CS4032, Numerical Methods for Linear and Nonlinear Systems</td>
+          </tr>
+          <tr>
+            <td>D</td>
+            <td>CS2223, Algorithms</td>
+            <td>CS3041, Human-Computer Interaction</td>
+            <td>IQP Term</td>
+          </tr>
+          <tr>
+            <td>E</td>
+            <td></td>
+            <td></td>
+            <td>CS4731, Computer Graphics</td>
+          </tr>
+        </table>
+    </div>
+    
+    <br>
+    <div class="experienceWrapper">
+      <h2><span>Experience</span></h2>
+      <p>Table of my experience with the specified technology:</p>
+      <table>
+        <tr>
+          <th>Technology</th>
+          <th>Experience</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Some</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Some</td>
+        </tr>
+        <tr>
+          <td>Java</td>
+          <td>A lot</td>
+        </tr>
+        <tr>
+          <td>Javascript</td>
+          <td>Some</td>
+        </tr>
+        <tr>
+          <td>Ruby</td>
+          <td>None</td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>A lot</td>
+        </tr>
+        <tr>
+          <td>Unit Testing</td>
+          <td>Some</td>
+        </tr>
+      </table>
+    </div>
+    
+    <br>
+    <div class="funWrapper">
+      <h2><span>Fun Stuff</span></h2>
+      <p>I have 2 dogs: Suki and Hobbs</p>
+      <div class="imageBox">
+        <div class="sukiImage">
+          <img src="./suki.JPG" id="suki" alt="chocolate lab laying on a picnic table outside">
+        </div>
+        <div class="hobbsImage">
+          <img src="./hobbs.JPG" id="hobbs" alt="chololate lab with a stuffed penguin in his mouth">
+        </div>
+      </div>
+      <p class="invisibleWoof" id="invisibleWoof">&#32;</p>
+      
+      <br>
+      <button type="button" onclick="scale()">Secret Button</button>
+      <button type="button" onclick="woof()">Another Secret Button</button>
+    </div>
+
+    <br>
+    <footer>
+      <p>Made by Laura Pellowski for Webware 2024</p>
+    </footer>
+
   </body>
 </html>
