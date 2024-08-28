@@ -6,7 +6,7 @@ window.onload = function () {
     let topValue = false;
     const fnc = function () {
       //console.log("test", red);
-      document.body.style = "background-color:rgb(" + red + "," + green + ",  255)";
+      document.body.style = "background-color:rgb(" + red + "," + green + ",  50)";
       document.getElementById("funnyImage").style.transform = "rotate(" + rotation + "deg)";
       if(topValue == false)
       {

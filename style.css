@@ -1,12 +1,39 @@
 h1 {
     font-family: "Lucida Console", "Courier New", monospace;
     font-style: "italic";
+    color: rgb(219, 59, 193)
+  }
+
+  h2 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-style: "italic";
+    color: rgb(219, 59, 193)
+  }
+
+  h3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-style: "italic";
+    color: rgb(219, 59, 193)
+  }
+
+  h4 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-style: "italic";
+    color: rgb(219, 59, 193)
   }
   
   footer {
     background:blue;
     color:white
   }
+
+p {
+  color: rgb(61, 203, 84)
+}
+
+li {
+  color: rgb(219, 76, 59)
+}
   
   #funnyImage {
     margin: 40px;
