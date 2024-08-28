@@ -1,0 +1,109 @@
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+body {
+    font-family: "Ubuntu";
+    background-color: #FAECD4;
+    opacity: 0.8;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: black;
+    padding-left: 10px;
+    text-underline-offset: 10px;
+}
+
+h2 {
+    color: black;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+h3 {
+    color: black;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+h4 {
+    color: black;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+p {
+    color: #F56727;
+    font-size: 14pt;
+    padding: 5px;
+    padding-left: 25px
+}
+
+#container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: #F58E5F;
+    border: solid black;
+}
+
+#animate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: white;
+}
+
+ul {
+    color: #FA0E2F;
+    font-size: 14pt;
+}
+
+section {
+    color: #FA0E2F;
+    font-size: 12pt;
+}
+
+table {
+    color: black;
+    font-size: 12pt;
+    padding: 5px;
+    padding-left: 25px;
+}
+
+th {
+    font-style: italic;
+    font-weight: bold;
+}
+
+th, td {
+    border: 3px solid #F57700;
+    text-align: center;
+}
+
+
+header {
+    background: linear-gradient(to bottom, #F56727, #F58E5F);
+    padding: 15px;
+    text-align: center;
+}
+
+footer {
+    background: linear-gradient(to bottom, #FAECD4, #F75940);
+    padding: 10px;
+    padding-top: 25px;
+    text-align: left;
+    font-size: 10pt;
+}
+
+section {
+    font-style: bold;
+}
+
+div {
+    opacity: 0.8;
+}
