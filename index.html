@@ -1,15 +1,20 @@
 <!doctype html>
 
 <html lang="en">
-  <head>
+
+<head>
     <title>CS4241 Assignment 1</title>
+    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
-  </head>
-  <body>
-    <h1>Information about Harshith Iyer (Class of 2025)</h1>
+</head>
+
+<body>
+    <marquee>
+        <h1>Information about Harshith Iyer (Class of 2025)</h1>
+    </marquee>
     <p>
-      I'm a Computer Science student graduating in 2025. At WPI, I've previously taken:
-      <ul>
+        I'm a Computer Science student graduating in 2025. At WPI, I've previously taken:
+    <ul>
         <li>CS 1102 Accelerated Introduction to Program Design</li>
         <li>CS 2103 Accelerated Object-Oriented Design Concepts</li>
         <li>CS 2303 Systems Programming Concepts</li>
@@ -29,31 +34,86 @@
         <li>CS 4341 Introduction to Artificial Intelligence</li>
     </ul>
 
-    I've been writing HTML and CSS since I was in middle school, and I've been writing Java since high school, and I learned about unit testing within Java when I took CS 2103 Accelerated Introduction to Object Oriented Programming, and continued to work on it through taking CS 3733 Software Engineering, CS 4233 Object-Oriented Analysis and Design, and my internships.
+    I've been writing HTML and CSS since I was in middle school, and I've been writing Java since high school, and I
+    learned about unit testing within Java when I took CS 2103 Accelerated Introduction to Object Oriented Programming,
+    and continued to work on it through taking CS 3733 Software Engineering, CS 4233 Object-Oriented Analysis and
+    Design, and my internships.
     <br>
-    I taught myself Javascript and Typescript in my sophomore year of high school to work on <a href="https://github.com/PorygonBot/bot">Porygon</a>, a Discord bot that autmoatically analyzes Pokemon battles. 
+    I taught myself Javascript and Typescript in my sophomore year of high school to work on <a
+        href="https://github.com/PorygonBot/bot">Porygon</a>, a Discord bot that autmoatically analyzes Pokemon battles.
     <br>
-    My introduction to programming was through an online course released by MIT called 6.00.1 Introduction to Programming using Python, and I've been programing with Python ever since. It is my language of choice when working on programming problems like Advent of Code or Leetcode, and during technical interviews, due to its flexibility and versatility. 
+    My introduction to programming was through an online course released by MIT called 6.00.1 Introduction to
+    Programming using Python, and I've been programing with Python ever since. It is my language of choice when working
+    on programming problems like Advent of Code or Leetcode, and during technical interviews, due to its flexibility and
+    versatility.
     </p>
 
     <p>
-        In my free time, I enjoy playing video games (I love Pokemon, the Horizon series, and Hades), watching movies (one of my favorite movies of all time is Dune (2021)), and solving Rubik's cubes (my personal best is 6.87 seconds).
+        In my free time, I enjoy playing video games (I love Pokemon, the Horizon series, and Hades), watching movies
+        (one of my favorite movies of all time is Dune (2021)), and solving
+        <span id="rainbow-text" class="kablammo rubiks">Rubik's cubes</span> (my personal best is 6.87 seconds).
     </p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi>x</mi>
+            <mo>=</mo>
+            <mfrac>
+                <mrow>
+                    <mo>-</mo>
+                    <mi>b</mi>
+                    <mo>±</mo>
+                    <msqrt>
+                        <msup>
+                            <mi>b</mi>
+                            <mn>2</mn>
+                        </msup>
+                        <mo>-</mo>
+                        <mn>4</mn>
+                        <mi>a</mi>
+                        <mi>c</mi>
+                    </msqrt>
+                </mrow>
+                <mrow>
+                    <mn>2</mn>
+                    <mi>a</mi>
+                </mrow>
+            </mfrac>
+        </mrow>
+    </math>
 
     <h2>Experience</h2>
     <p>
-      Working experience
+        Working experience
     </p>
     <ul>
-      <li><strong>WPI</strong> - Lead Specialist at the Technology Help Desk</li>
-      <p>2021 - Present</p>
-      <p>I work at the Technology Help Desk in the WPI library. I'm currently a lead specialist there and help students and faculty connect their devices to the wifi, reset their passwords and MFA methods, and more general tech help!</p>
-      <li><strong>Jahnel Group</strong> - Software Engineer Intern</li>
-      <p>2023</p>
-      <p>I interned at Jahnel Group as a software developer. I worked on a full-stack web application that was built using React, Express, and AWS DynamoDB. I hosted the application on AWS Amplify, used AWS Lambda for the backend, AWS Cognito for user authentication, and AWS S3 for image hosting.</p>
-      <li><strong>Verizon</strong> - Undergraduate Intern</li>
-      <p>2022</p>
-      <p>I interned at Verizon as a software developer. I worked on an Android library wrapper in Kotlin, working with third-parties and other teams within Verizon.</p>
+        <li><strong>WPI</strong> - Lead Specialist at the Technology Help Desk</li>
+        <p>2021 - Present</p>
+        <p>I work at the Technology Help Desk in the WPI library. I'm currently a lead specialist there and help
+            students and faculty connect their devices to the wifi, reset their passwords and MFA methods, and more
+            general tech help!</p>
+        <li><strong>Jahnel Group</strong> - Software Engineer Intern</li>
+        <p>2023</p>
+        <p>I interned at Jahnel Group as a software developer. I worked on a full-stack web application that was built
+            using React, Express, and AWS DynamoDB. I hosted the application on AWS Amplify, used AWS Lambda for the
+            backend, AWS Cognito for user authentication, and AWS S3 for image hosting.</p>
+        <li><strong>Verizon</strong> - Undergraduate Intern</li>
+        <p>2022</p>
+        <p>I interned at Verizon as a software developer. I worked on an Android library wrapper in Kotlin, working with
+            third-parties and other teams within Verizon.</p>
     </ul>
-  </body>
+
+    <script>
+        const text = document.getElementById('rainbow-text');
+        let hue = 0;
+
+        function animateColors() {
+            hue = (hue + 1) % 360;
+            text.style.color = `hsl(${hue}, 100%, 50%)`;
+            requestAnimationFrame(animateColors);
+        }
+
+        animateColors();
+    </script>
+</body>
+
 </html>
