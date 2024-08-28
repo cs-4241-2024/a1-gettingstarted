@@ -1,0 +1,77 @@
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    background: rgba(92, 115, 70, 0.75);
+}
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.more-info {
+    display: flex;
+    gap: 15px;
+}
+
+.list-one {
+    display: flex;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.list-two {
+    display: flex;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+
+body {
+    padding: 50px;
+    font-family: "Montserrat", sans-serif;
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1758073114103109159/20B042641BF6359FEE0D9E96CE7D62205EB179A3/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);   
+    
+}
+
+ul {
+    text-align: left;
+}
+
+li {
+    color: #D0E1CF;
+}
+
+h1 {
+   font-size: 50px; 
+   color: #C8DC83;
+}
+
+h2 {
+    color: #96be40;
+}
+
+h4 {
+    color: #96be40;
+}
+
+h5 {
+    color: #C8DC83;
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #D0E1CF;
+    padding: 25px;
+    font-weight: bold;
+}
+
