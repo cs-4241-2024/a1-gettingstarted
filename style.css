@@ -15,9 +15,9 @@ footer{
     right: 2vw;
     bottom: 2vh;
 
-     border-width: 1px;
+  /*border-width: 1px;
     border-color: black;
-    border-style: solid;
+    border-style: solid; */
 }
 
 a:link {

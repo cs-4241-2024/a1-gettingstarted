@@ -3,7 +3,7 @@ Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
 Nandita Kumar
 http://a1-mknandita.glitch.me
 
-This project shows the specified information about me against an animated background.
+This project shows the specified information about me against an animated background. *Please make sure to open the Glitch in a full-sized window in order to properly view all features of the site.*
 
 ## TTD
 - turn blobs into sin wave-esque things that are diagonally positioned on the canvas but are moving in the x and y directions (so its like a wave)(this would be so cool but so hard)
