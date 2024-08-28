@@ -22,3 +22,6 @@ I have the button as #C63BED
 I have the footer as #B78AED
 
 2. **Used Matemasie google font**:I used Matemasie font on the title.
+
+Notes:
+For button css styling I used code from my previous HCI (Human Computer Interaction) lab.
