@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+
+.kablammo {
+    font-family: "Kablammo", system-ui;
+}
+
+ul {
+    list-style-type: square;
+}
