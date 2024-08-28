@@ -4,7 +4,7 @@ Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
 Piper O'Connell
 _**ADD GLITCH LINK**_
 
-[//]: # (http://a1-charlieroberts.glitch.me)
+https://glitch.com/~a1-piperoco23
 
 This project shows a little bit about me, as well as some experience I have with HTML and CSS.
 I added some extra personality to my page, but also wanted to keep it quite simple. 
