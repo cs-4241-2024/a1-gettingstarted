@@ -96,7 +96,9 @@ http://a1-charlieroberts.glitch.me
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the body, h1, footer
+- **Styled page with CSS**: Added rules for the backgound-color, color, font-family, max-width, max-height
+- **Uses Other Semantic HTML Tags**: Used img, footer, 
 
 ### Design Achievements
 - **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
+- **Created a color palette using Adobe Color**
