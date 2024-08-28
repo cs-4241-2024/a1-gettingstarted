@@ -21,6 +21,12 @@ case '/':
 case '/index.html':
   sendFile( response, 'index.html' )
   break
+case '/style.css':
+  sendFile( response, 'style.css' )
+  break
+case '/server.js':
+  sendFile( response, 'server.js' )
+  break
 default:
   response.end( '404 Error: File Not Found' )
 }
