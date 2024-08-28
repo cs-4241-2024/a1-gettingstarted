@@ -1,0 +1,41 @@
+body {
+  background-color:grey;
+}
+
+h1 {
+  color: pink;
+}
+
+h2 {
+  color: lightblue;
+}
+
+h1,
+h2 {
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+p,
+ul,
+li {
+  background: lightgreen;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.skill-table {
+  background-color: white;
+  margin-left: 0%;
+  transition: margin-left 0.1s ease;
+}
