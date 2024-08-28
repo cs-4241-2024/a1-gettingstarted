@@ -1,4 +1,4 @@
-Gabriel Curet http://a1-gabrielcuret.glitch.me
+Gabriel Curet http://a1-shadow12021.glitch.me
 
 This project shows a little bit about myself and my experiences with web development, listing out the ones I'm familiar with and the ones I'm not. For this project, I had to do a bit of research about making an animation, this meant looking into addEventListener() to see if a button was clicked and using .style.fontSize property to adjust the size of the selected element. With some help from StackOverflow I was able to create an animation that once you click on the button will enlarge the text and once you click it again it goes back to normal size. 
 
