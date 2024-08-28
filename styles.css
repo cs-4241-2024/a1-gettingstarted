@@ -99,3 +99,11 @@ footer {
     text-align: left;
     font-size: 10pt;
 }
+
+section {
+    font-style: bold;
+}
+
+div {
+    opacity: 0.8;
+}

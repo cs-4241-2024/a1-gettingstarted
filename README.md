@@ -13,7 +13,7 @@ This project shows ...
                             the width/height of the animation container, and a color gradient for the header and footer. 
                             Finally, I also aligned text for the table towards the center, made the header table sections italicized and bolded, 
                             and created a border for the header & table contents and another outline for the animation container.
-- **JavaScript Animation**: Added a simple moving square to the page that jumps back to starting position.
+- **JavaScript Animation**: Added a simple moving square to the page that moves down the container and then jumps back to its starting position.
 - **Semantic HTML tags**: I created a header and footer, alongside a displayed image on the page. 
                           Plus, I used the section tag to split each portion of text with, added a div tag for the JavaScript animation 
                           and, lastly, created a table with information about my experiences each year at WPI.
