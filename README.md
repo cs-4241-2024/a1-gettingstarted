@@ -12,4 +12,4 @@ This project shows that I have basic skills in Git and have followed the instruc
 - **Added semantic HTML tags:** Link, table.
 
 ### Design Achievements
-- **Used the Poppins Font from Google Fonts**: I used [Poppins](https://fonts.google.com/selection/embed) as the font for the primary body text in my site.
+- **Used the Poppins Font from Google Fonts**: I used Poppins as the font for the primary body text in my site.
