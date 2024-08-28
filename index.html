@@ -1,28 +1,54 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Sevillana&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title id="title">CS4241 Assignment 1</title>
+    <script src="script.js" charset="utf-8"></script>
   </head>
-  <body>
-    <h1>Information about [Your name here]</h1>
+
+  <body style="background-color:black" onload="main()">
+    <h1>Information about Nathaniel Rubin</h1>
+    <div id="body_div">
     <p>
-      [Self introduction]
+      Hello, my name is Nathaniel Rubin.
     </p>
     <p>
-      [Major and other information]
+      I am a senior at Worcester Polytechnic Institute, class of 2025, and I am a Computer Science major. I have taken Algorithms, Operating Systems, Software Engineering, and more.
     </p>
     <p>
-      [Other things]
+      I am from Rochester, New York.
     </p>
 
     <h2>Experience</h2>
     <p>
-      Working experience
+      The majority of my experience comes from WPI, personal coding projects, and a small contract job.
     </p>
     <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
+      <li>WPI:</li>
+      <ul>
+        <li>Operating Systems (C)</li>
+        <li>Embedded Systems (C)</li>
+        <li>Algorithms (Java)</li>
+        <li>Software Engineering (Java)</li>
+      </ul>
+      <li>Personal Coding Projects:</li>
+      <ul>
+        <li>Graphics Library in C</li>
+        <li>Chip8 Emulator in Rust</li>
+      </ul>
+      <li>Contract Job:</li>
+      <ul>
+        <li>Used Python with Pandas' DataFrames</li>
+      </ul>
     </ul>
-  </body>
+    </div>
+    <div id="div2" style="margin-top: -550px;">
+      <img src="parrot.jpg" alt="parrot" onerror="this.onerror=null">
+    </div>
+    </body>
+
 </html>
