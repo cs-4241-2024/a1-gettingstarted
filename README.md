@@ -41,10 +41,10 @@ This assignment requires that your website is both contained in a GitHub reposit
         * unit testing
 4. Complete some technical and/or design achievements (see below).
 5. Test your project to make sure that when someone goes to your main page, it displays correctly. You can do this locally by simply running `node server.js` from within the assignment directory.
-
 6. Modify the README file according to the specification below.
 7. Commit and push all your changes to GitHub. 
 8. Deploy your project to Glitch. You can do this by [importing the repo from GitHub](https://medium.com/glitch/import-code-from-anywhere-83fb60ea4875)
+    Link to glitch: https://buttered-alive-tea.glitch.me
 9. Ensure that your project has the proper naming scheme (guide follows) so we can find it.
 9. Create and submit a Pull Request to the original repo.
 
@@ -73,12 +73,24 @@ Note that if you want to load resources besides your index.html file (images, an
 
 *Technical*
 1. (max 5 points) Style your page using CSS. Each style rule you apply will get you 1 extra point for a maximum of 5 points. Be sure to describe your style rules in your README.
+    - Established internal styling to provide a standard for colors/spacing across the whole page. This
+    included text color for h1, h2, and h3; margin spacing for list items; table dimensions; and background color for the entire page using the color wheel I created using Color Adobe.
+    - For the table, I used inline CSS to individually color-code my skill level to correspond to each technology/method
+    - I generally used a lot of inline styling to center the content of my page.
+
 2. (5 points) Add a simple JavaScript animation to the page.
+    - See small heart emoji animation at the top of the screen
+
 3. (max 5 points) Experiment with other *semantic* HTML tags (links, images, tables, header, footer, etc.) Each extra tag you use will get you 1 extra point for a maximum of 5 points. Be sure to describe the tags you use in your README.
+    - Added a table to organize my familiary/skill level with each technology/method.
+    - Utilized multiple header sizes/elements 
 
 *Design*
 1. (10 points) Create a color palette using [color.adobe.com](https://color.adobe.com). Use all the colors in the palette in your webpage by implementing the appropriate CSS. Add a small screenshot of the color wheel for your color palette to your repo.
+    - See screenshot of created and used Color Wheel: ![alt text](<Screenshot 2024-08-28 at 1.23.47 PM.png>)
+
 2. (5 points) Use a font from [Google Fonts](https://fonts.google.com) in your website.
+    - See <head> element in index.hmtl code. Added Roboto font from Google Fonts as the primary font of my page to mimic the proffessors website.
 
 Resources
 ---
