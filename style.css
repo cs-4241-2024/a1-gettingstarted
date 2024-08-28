@@ -1,9 +1,13 @@
 p {font-size: large}
+h1 {text-align: center; color: blue;}
+figcaption {text-align: center}
+figure {text-align: center}
+
 li {font-size: large; margin: 15px;}
 
 
 .blackbg {
-    background-color: grey;
+    background-color: #4AA7E7;
   }
 
 .bodybox {
@@ -11,36 +15,65 @@ li {font-size: large; margin: 15px;}
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    border: 5px solid #FFFDD0;
+    border: 5px solid #C8BE95;
     padding: 10px;
-    background: lightgrey;
+    background: #FFFDE4;
 }
 
 .imgStyled {
     width: 40%;
     height: auto;
+    padding-top: 10px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
-
+/* HTML: <div class="triangle"></div> */
+.triangle {
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  aspect-ratio: 1/cos(30deg);
+  clip-path: polygon(50% 0,100% 100%,0 100%);
+  background: linear-gradient(45deg,#A76C9F,#80FBFF);
+}
 
 /* font styling */
 @font-face {
     font-family: 'nunito';
-    src: url(/nunito.ttf);
+    src: url(https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap);
     }
 
-    .nunito {
-    font-family: 'nunito';
-    font-size: 15;
+.nunito {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     }
-    
 
-    /* flex */
+/* flex */
 
-    .flex{
-        display: flex;
-        flex-flow: row wrap;
-      }
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+    }
+/*animation square!*/
+#animate {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: #A76C9F;
+    }
+
+/*links*/
+
+a:link {
+  color: #80FBFF;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4AA7E7;
+  background-color: transparent;
+  text-decoration: none;
+}
