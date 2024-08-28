@@ -1,3 +1,6 @@
+Rose Strobel https://a1-rosestrobelwpi.glitch.me
+This project shows who I am and what classes I have taken!
+
 Explanations for CSS styling:
 
 * {
