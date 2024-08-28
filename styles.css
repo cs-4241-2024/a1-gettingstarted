@@ -1,11 +1,11 @@
-@font-face {
-    font-family: "Ubuntu";
+.ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
     font-style: normal;
-    font-weight: 12pt;
-    src: url(Ubuntu-BoldItalic.ttf) format('woff2');
-}
+  }
 
 body {
+    font-family: "Ubuntu";
     background-color: #FAECD4;
     margin: 0;
     padding: 0;
