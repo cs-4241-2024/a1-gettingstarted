@@ -1,7 +1,7 @@
 Harshith Iyer
 https://a1-harbar20.glitch.me/
 
-This project shows ...
+This project shows my competence in HTML, CSS, and JavaScript. It shows I know how to use the HTML tags, style using CSS, and implement a basic animation using JavaScript to create a simple website.
 
 ## Technical Achievements
 - **Styled page with CSS**: I changed the `<ul>` tag to be squares instead of bullet points. I also changed the font of the "Rubik's cubes" text to a custom font called Kablammo. 
