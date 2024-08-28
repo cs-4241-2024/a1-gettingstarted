@@ -1,6 +1,19 @@
+
+@keyframes colorChange {
+    0% {
+        color: #A59B94;
+    }
+    50% {
+        color: #523018
+    }
+    100% {
+        color: #7A6759;
+    }
+}
+
 body {
     font-family: "New Amsterdam", sans-serif;
-    background-color: #A59B94;
+    background-color: whitesmoke;
     border: 2px solid #FABB8E;
 }
 
@@ -12,12 +25,11 @@ img {
 
 h1 {
     font-size: 28px;
-    color: #523018;
 }
 
 h2 {
     font-size: 20px;
-    color: #7A6759;
+    animation: colorChange 5s infinite ease-in-out;
 }
 
 table, th, td {
