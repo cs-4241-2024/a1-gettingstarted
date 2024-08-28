@@ -24,3 +24,4 @@ I have the footer as #B78AED
 
 Notes:
 For button css styling I used code from my previous HCI (Human Computer Interaction) lab.
+Also if you preview without full screen some of the titles start overlapping eachother.
