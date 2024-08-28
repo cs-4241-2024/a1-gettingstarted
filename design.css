@@ -1,0 +1,58 @@
+body{
+    padding-left: 25px;
+    padding-bottom: 25px;
+    background-color: #f8f5f0;
+    font-family: "Nunito", sans-serif;
+}
+
+@keyframes example {
+    0% {color: #ef1f8f;}
+    25% {color: #FE28A2;}
+    50% {color: hotpink;}
+    100% {color: lightpink;}
+}
+h1{
+    padding-top: 20px;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+table{
+    border: 2px solid #FFB6C1FF;
+    border-collapse: collapse;
+    width: 50%;
+    font-family: "Nunito", sans-serif;
+}
+
+thead{
+    border: 1px solid #FF69B4FF;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+}
+
+th, td{
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid;
+    font-family: "Nunito", sans-serif;
+    font-weight: normal;
+}
+
+@keyframes cat{
+    0% {padding-left: 0px;}
+    /*25% {padding-left: 100px;}*/
+    /*50% {padding-left: 300px;}*/
+    /*75% {padding-left: 500px;}*/
+    100% {padding-left: 1500px;}
+}
+
+img{
+    width: 5%;
+    height: 5%;
+    animation-name: cat;
+    animation-duration: 20s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
