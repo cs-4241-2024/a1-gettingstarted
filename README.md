@@ -2,7 +2,6 @@ Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
 ===
 
 Piper O'Connell
-_**ADD GLITCH LINK**_
 
 https://glitch.com/~a1-piperoco23
 
