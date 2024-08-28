@@ -31,7 +31,7 @@ body {
 table {
 	margin-top: 10px;
 	font-family: Bangers;
-	border: 6px solid red;
+	border: 6px solid rgb(140, 0, 0);
 	background-color: rgb(255, 150, 150);
 	text-align: center;
 	padding: 10px;
