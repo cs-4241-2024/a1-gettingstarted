@@ -7,7 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  </head>
+<style>
+  @keyframes imagemove{
+    from {left: 0rem}; 
+    to {right:5rem};
+  }
+</style>  
+</head>
   <body>
     <header>
       <h1 class="nameHeader">Vivek Jagadeesh</h1>
@@ -15,7 +21,19 @@
 
     </header>
 
-    <img  src="wpiSvg.png"  ></img>
+    <img id="wpiSvg.png" src="wpiSvg.png"  ></img>
+    <script>
+      const imageMove = [
+        {transform: "translateX(100%)"}, 
+z    
+    ]
+    const imagemovetime = {
+  duration: 1000,
+  iterations: 1,
+};
+      const image = document.getElementById("wpiSvg.png"); 
+      image.addEventListener("click", () => image.animate(imageMove,imagemovetime));
+    </script>
     <p>Hover over the wpi image and my name for a fun animation!</p>
     
     <p class = "description">
