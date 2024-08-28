@@ -7,7 +7,7 @@ This project shows the ability to create a static website in html, and the abili
 
 ## Technical Achievements
 - **Styled page with CSS**: Added rules for the body, h1, h2, p, footer, img tr, td, th
-- **Added simple JS animation**: Added an animation on hover so that the WPI logo and my name move to the right when the user hovers over them 
+- **Added simple JS animation**: Added an animation on click so that the WPI logo and my name move to the right when the user hovers over them 
 - **Added the following HTML semantics**: 
 1. img (wpi logo)
 2. table for frameworks and courses
