@@ -1,9 +1,7 @@
-Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
+Nandita Kumar, Webware Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
 ===
-Nandita Kumar
-http://a1-mknandita.glitch.me
-
-This project shows the specified information about me against an animated background. *Please make sure to open the Glitch in a full-sized window in order to properly view all features of the site.*
+- This project shows the specified information about me against an animated background. *Please make sure to open the Glitch in a full-sized window in order to properly view all features of the site.*
+- Please view at http://a1-mknandita.glitch.me
 
 ## Technical Achievements
 - **Styled page with CSS**: Added rules for the html, div, h1, section, a, and p selectors as well as for multiple custom ID selectors and varying cases.
@@ -14,6 +12,7 @@ This project shows the specified information about me against an animated backgr
 - **Created and utilized a color palette**: A screenshot of the palette can be found [in this repository](/palette.jpg)
 - **Used the Beth Ellen and Calligraffitti Font from Google Fonts**: The Beth Ellen font is used for my name, while the Calligraffitti font is used for the main text.
 
+##
 ### Things To Do Still
 - turn blobs into sin wave-esque things that are diagonally positioned on the canvas but are moving in the x and y directions (so its like a wave)(this would be so cool but so hard)
 - use svgs or something bc things are SO PIXELATED D:
