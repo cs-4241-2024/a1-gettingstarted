@@ -13,7 +13,6 @@ const server = http.createServer( function( request,response ) {
     case '/style.css':
       sendFile(response, 'style.css')
       break
-      //did i do this properly
       case '/duck.png':
         sendFile(response, 'duck.png')
         break
