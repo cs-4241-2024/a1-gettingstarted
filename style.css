@@ -1,23 +1,23 @@
 h1 {
     font-family: "Lucida Console", "Courier New", monospace;
-    font-style: "italic";
+    font-style: "Bold";
     color: rgb(219, 59, 193)
   }
 
   h2 {
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Lucida Console", "Times New Roman", monospace;
     font-style: "italic";
     color: rgb(219, 59, 193)
   }
 
   h3 {
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Lucida Console", "Times New Roman", monospace;
     font-style: "italic";
     color: rgb(219, 59, 193)
   }
 
   h4 {
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Lucida Console", "Times New Roman", monospace;
     font-style: "italic";
     color: rgb(219, 59, 193)
   }
