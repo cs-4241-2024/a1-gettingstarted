@@ -19,7 +19,6 @@ const server = http.createServer( function( request,response ) { //use http libr
       const name = request.url.slice(1) //slice to remove opening forward slash
       sendFile( response, name )
       break
-      //response.end( '404 Error: File Not Found' )
   }
 })
 
