@@ -1,0 +1,31 @@
+body {
+  background-color: #D6D5E5;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #685FE3;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #5F80E3;
+}
+
+p2 {
+  font-family: 'Roboto', sans-serif;
+  color: #935FE3;
+}
+
+p3 {
+  font-family: 'Roboto', sans-serif;
+  color: #BE5FE3;
+  font-size: 15px;
+}
+
+p4{
+  font-family: 'Roboto', sans-serif;
+  color: #5FAAE3;
+  font-size: 18px;
+}
