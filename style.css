@@ -1,25 +1,37 @@
 h1 {
     text-align: center;
     margin: 50px;
-    color: #E9E2EC;
+    color: #7541D9;
     font-family: lucida calligraphy;
     font-size: 300%;
-    border: 2px solid powderblue;
+    border: 2px solid #4441D9;
   }
 body{
-    background-color: #5C242A;
+    background-color: #41CED9;
     }
 p {
-    color: #E9E2EC;
+    color: #416FD9;
     font-family: verdana;
 }
 h2{
-    color: #E9E2EC;
+    color: #7541D9;
     font-family: lucida calligraphy;
     font-size: 200%;
+    border: 2px solid #419ED9;
 }
 
 ul{
-    color: #E9E2EC;
+    color: #416FD9;
     font-family: verdana;
 }
+
+button {
+    width: 240px;
+    font-size: 200%;
+    margin:150px auto 0;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+    position: relative;
+    color: #89A1D9;
+  } 
