@@ -3,8 +3,8 @@ Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
 ---
 
 Anthony Titcombe
-https://a1-anthonytitcombe.glitch.me/
-
+[https://a1-atitcombe.glitch.me/
+](https://a1-atitcombe.glitch.me/)
 This project shows what I'm about.
 
 What I achieved in the assignment
