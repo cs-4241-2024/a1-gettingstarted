@@ -4,6 +4,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   text-align: center;
+  padding: 2px;
 }
 h2 {
   background:purple;
