@@ -15,7 +15,7 @@ Technical Achievements
 - I used styles on classes (background, course, tools, work, main_img, circle-outline, circle-outline2) and selectors (p, h1, h2, body, img, footer)
 - Position Style Rules (display, justify-content, grid-template-columns, align-items, padding, margin, rotate): These style rules all helped position the content exactly where I wanted it. 
 - Appearance Style Rules (clip-path, background-color, color, border-color, border-radius, font-family): These style rules all helped with the appearance of the content, by setting colors of texts and backgrounds. Additionally, I used clip-path and border-radius to help shape the content into circles.
-- Size Style Rules (font-size, font-weight, heigh, width, max-width): These style rules all helped me adjust the size of the objects including shapes, images, and texts. 
+- Size Style Rules (font-size, font-weight, height, width, max-width): These style rules all helped me adjust the size of the objects including shapes, images, and texts. 
 - I had a lot of style rules in my code, so I thought separating it out like this would help understand how some of them functioned. 
 
 2. JavaScript Animation
