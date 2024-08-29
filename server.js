@@ -4,7 +4,7 @@ const fs = require("fs");
 const public_files = ["index.html", "main.css", "main.js"];
 
 const server = http.createServer(function (request, response) {
-  const url = request.url.replaceAll("/", "");
+  const url = request.url.replace("/", "");
   if (url.length === 0) sendFile(response, public_files[0]);
   else if (public_files.indexOf(url) !== -1) sendFile(response, url);
   else response.end("404 Error: File Not Found");
