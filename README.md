@@ -1,5 +1,7 @@
 # Ben Tyler's CS4241 Assignment 1
 
+I didn't officially get into this class until after the Due date of this assignment, the professor said it was ok that I submitted late with no penalty
+
 **Live Site:** [http://a1-thecoolbt.glitch.me](http://a1-thecoolbt.glitch.me)
 
 # My Web Project
@@ -27,6 +29,9 @@
 
 ### Google Fonts Integration
 - Used the Roboto font from Google Fonts for my website.
+
+
+
 
 
 
