@@ -32,6 +32,24 @@
       <li>I have no experience with Ruby.</li>
     </ul>
 
-    <img src = "img/jsimage1.jpeg" alt = "Tiger" width = "500" height = "500">
+    <img id="image1" src = "img/jsimage1.jpeg" alt = "Tiger" width = "500" height = "500">
+    <script>
+      
+  
+      window.onload = function init() {
+        let move = document.getElementById('image1');
+        move.style.position = 'relative';
+        move.style.left = '20px';
+        move.style.top = '0px';
+        const pos = 0;
+        
+       for(i = 0; i < 100000; i + 100) {
+        setTimeout(() => {move.style.right = parseInt(move.style.right) + 10 + "px"}, 20000)
+       }
+
+    }
+    window.onload = init;
+    </script>
   </body>
+  
 </html>
