@@ -1,6 +1,6 @@
 Jeffrey Li
 ===
-This project 
+This project tells a little bit about my coding experience and my interests.
 ## Technical Achievements
 - **Styled page with CSS**: Added rules for the body, p, h1, h2 li, and ul selectors...
 - **Added a simple Javascript Animation to the page**: Added an animation to the header that changes the color of the text from blue to white every second.
