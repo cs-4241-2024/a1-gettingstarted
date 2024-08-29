@@ -1,6 +1,6 @@
 
 Hanna Trinh
-http://a1-charlieroberts.glitch.me
+https://a1-hannatrinh.glitch.me
 
 This project shows various foundational techniques in web design and development, focusing on bboth technical and design aspects. It includes styling using CSS, font customization, simple JavaScript animation, and other front-end elements that are managed by NodeJS. The project includes a simple introduction and details required by this assignment.
 
