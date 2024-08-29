@@ -1,5 +1,9 @@
 body {
   background-color:grey;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 h1 {
@@ -22,10 +26,6 @@ p,
 ul,
 li {
   background: lightgreen;
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-style: normal;
 }
 
 table,
@@ -37,5 +37,5 @@ td {
 .skill-table {
   background-color: white;
   margin-left: 0%;
-  transition: margin-left 0.1s ease;
+  transition: margin-left 0.5s ease;
 }
