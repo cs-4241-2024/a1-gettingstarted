@@ -1,0 +1,100 @@
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  p{
+    color: #8CA19F;
+  }
+  
+  li{
+    color: #6E7F7E;
+  }
+  
+  h1, h3{
+    color: #515D5C;
+  /*   #39EA9B */
+  }
+  
+  body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #CFEDEB;
+  }
+  
+  .container {
+      display: flex;
+      justify-content: space-between; /* Space between the boxes */
+      width: 100%;
+      max-width: 5000px; /* Maximum width of the container */
+  }
+  
+  .card {
+      flex: 1; /* Makes all boxes take equal space */
+      margin: 0 10px; /* Adds spacing between boxes */
+      padding: 20px;
+      background-color: #A9C3C1;
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Drop shadow */
+      text-align: center;
+      font-family: Arial, sans-serif;
+  }
+  
+  /* removes bullet points on li */
+  .no-bullets {
+      list-style-type: none; 
+      padding-left: 0;        
+      margin-left: 0;         
+  }
+  
+  .new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .card:hover{
+    transform: translateY(-10px); /* Moves the card up when you hover */
+    transition: transform 0.3s ease, filter 0.3s ease; /* Smooth selection */
+    filter: brightness(130%);
+  }
+  
+  @keyframes rainbow{
+      0% { color: red; }
+      16% { color: orange; }
+      33% { color: yellow; }
+      50% { color: green; }
+      66% { color: blue; }
+      83% { color: indigo; }
+      100% { color: violet; }
+  }
+  
+  #rainbow-text{
+    font-size: 3em;
+    animation: rainbow 5s infinite;
+  }
+  
+  img{
+    width: 90%;
+    height: auto;
+  }
+  
+  /* 
+  Color Variant 1
+    Background: #f0f0f0
+    Headings: #39EA9B
+    Card: #ffffff
+  
+  */
+  
+  
+  
+  
+  
+  
