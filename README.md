@@ -2,7 +2,7 @@ Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
 
 Skyler Lin Webware Project 1 Submission
 
-Glitch Link: 
+Glitch Link: https://a1-skylerlin-submission.glitch.me
 ===
 
 Achievements
