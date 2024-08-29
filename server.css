@@ -1,0 +1,22 @@
+body {
+    background-color: #CFE8EE;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #005f73;
+  }
+  
+  h2 {
+    color: #0a9396;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
