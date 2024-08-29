@@ -1,5 +1,6 @@
-Jeffrey Li
+
 ===
+Jeffrey Li - https://a1-jeffcli.glitch.me/
 This project tells a little bit about my coding experience and my interests.
 ## Technical Achievements
 - **Styled page with CSS**: Added rules for the body, p, h1, h2 li, and ul selectors...
