@@ -1,8 +1,14 @@
+@font-face{
+    font-family: Nerko;
+    src: url(NerkoOne-Regular.ttf);
+
+}
+
 h1 {
     text-align: center;
     margin: 50px;
     color: #7541D9;
-    font-family: lucida calligraphy;
+    font-family: Nerko;
     font-size: 300%;
     border: 2px solid #4441D9;
   }
@@ -15,7 +21,7 @@ p {
 }
 h2{
     color: #7541D9;
-    font-family: lucida calligraphy;
+    font-family: lucida;
     font-size: 200%;
     border: 2px solid #419ED9;
 }
