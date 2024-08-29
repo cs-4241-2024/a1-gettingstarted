@@ -1,28 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CS4241 Assignment 1</title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>About Rose</title>
   </head>
   <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
+    <div class="container">
+      <h2>Hello I'm</h2>
+      <h1 id="rose-text">Rose Strobel</h1>
+      <p>Computer Science, 2025</p>
+      <button><a href="https://shilin.wpi.edu/">IQP Project</a></button>
+      <button><a href="#" onclick="animateText()">Click Me!</a></button>
+    </div>
+    <div class="paragraph-container">
+      <p>
+        The classes I have taken are CS1101, CS2102, CS2303, CS2223, CS3103,
+        CS3043, CS3133, CS3431, and CS4518. I have experience in:
+      </p>
+      <ul>
+        <li>Java - Yes</li>
+        <li>HTML - Yes</li>
+        <li>CSS - Yes</li>
+        <li>Javascript - No</li>
+        <li>Ruby - No</li>
+        <li>Python - No</li>
+        <li>Unit Testing - Yes</li>
+      </ul>
+    </div>
 
-    <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
+    <script src="server.js"></script>
   </body>
 </html>
