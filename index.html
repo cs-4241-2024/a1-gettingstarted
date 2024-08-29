@@ -3,7 +3,8 @@
   <head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="server.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="server.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
   </head>
@@ -35,5 +36,37 @@
       <li>I had very little experience with python, I've only used a little bit in my data science class.</li>
       <li>I have some experience with unit testing.</li>
     </p>
+
+    <h2>Rate the food</h2>
+
+    <table>
+      <tr>
+        <th>Morgan</th>
+        <th>CC</th>
+      </tr>
+      <tr>
+        <td>Ice cream are good</td>
+        <td>Curry are good</td>
+      </tr>
+      <tr>
+        <td>6/10</td>
+        <td>7.5/10</td>
+      </tr>
+    </table>
+
+    <p>Click Button to rotate picture for 360 degree</p>
+    <img id="cat-image" src="./cat.jpg">
+    <br>
+    <button onclick="rotateImage()">Rotate Image</button>
+    <br>
+    <script>
+      let rotation = 0;
+      function rotateImage() {
+        rotation += 90;
+        const image = document.getElementById('cat-image');
+        image.style.transform = `rotate(${rotation}deg)`;
+      }
+    </script>
+
   </body>
 </html>
