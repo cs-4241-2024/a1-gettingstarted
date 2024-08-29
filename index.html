@@ -3,6 +3,29 @@
   <head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+    <script>
+      window.onload = function(){
+        let blue = 0
+        const fnc = function() {
+          blue = (blue + 20) % 255
+          console.log('test', blue)
+          document.body.style="background-color:rgb(160, 255, "+ blue +")"
+          setTimeout(fnc, 900);
+        }
+        setTimeout(fnc, 10)
+      }
+      
+    </script>
+    
   </head>
   <body>
     <h1>Information about Brendan Byrne class of 2024</h1>
@@ -17,18 +40,14 @@
     </p>
 
     <h2>Experience</h2>
-    <p>
-      HTML - None
-      CSS - Some
-      Java - A lot
-      JavaScript - Some
-      Ruby - None
-      Python - A lot
-      unit testing - A lot
-    </p>
     <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
+      <li>HTML - None</li>
+      <li>CSS - Some</li>
+      <li>Java - A lot</li>
+      <li>JavaScript - Some</li>
+      <li>Ruby - None</li>
+      <li>Python - A lot</li>
+      <li>unit testing - A lot</li>
     </ul>
   </body>
 </html>
