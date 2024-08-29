@@ -13,3 +13,4 @@ This glitch shows  information about me. Including my name, major/minor, some cs
 
 ### Design Achievements
 - **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
+- **Made color palette and used all colors**: The colors used are included in the repository under AdobeColorTriad.jpg. 
