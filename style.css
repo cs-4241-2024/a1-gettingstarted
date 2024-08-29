@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+header {
+  background-color: #8F8F8F; 
+  color: white; 
+  padding: 10px 20px;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #ede0ff;
+}
+h1 {
+  color: rgb(158, 214, 182);
+}
+h2 {
+  color: rgb(255, 123, 0);
+}
+
+p {
+  color: rgb(143, 143, 143);
+}
+ul {
+  color: rgb(143, 143, 143);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+.image {  width: 300px;
+border: 8px solid rgb(143, 143, 143); 
+margin: 10px;} 
+
+footer {
+  text-align: center;
+  background-color: #8F8F8F; 
+  padding: 10px 20px;
+  position: absolute; 
+  bottom: 0; 
+  left: 0;
+  right:0;
+  z-index: 10;
+}
