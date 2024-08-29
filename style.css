@@ -1,9 +1,29 @@
 body{
-    background-color: #ED9F6B;
+    background-color: #ECD8D7;
     font-family: 'Roboto', sans-serif;
     margin: 5px;
     padding: 3px;
     color: #ED716B;
+}
+h2{
+    color: #EB6BED;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+h3{
+    color: #ED6BA3;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+h4{
+    color: #ED9F6B;
+    font-size: 1em;
+    font-weight: 400;
+}
+h5{
+    color: #ED886B;
+    font-size: 0.8em;
+    font-weight: 300;
 }
 
 .roboto-thin {
