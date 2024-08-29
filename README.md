@@ -8,7 +8,7 @@ This project shows
 - **created frosted glass look**: styled the box that held the main text to have that frosted pane look that's so hip and trendy these days
 - **Animated background Image**: image moves in waves as you move your curser around the window. It's just a couple waves, but in one draft it was moving in opposition to the curser. Would that have garnered more points?
 
-### Design Achievements
+## Design Achievements
 - **Used the Roboto Font from Google Fonts**: I used Roboto as a font for all of my A tags. 
 - **Created and implimented a color pallete**: using the image I wanted to use, I created a basic pallete along with highlight and shadow corrosponding colours in [Figma](https://cdn.glitch.global/1758074e-64d8-4ae8-b906-1c9734b00b6e/Screenshot%202024-08-29%20060442.png?v=1724925938278)
 - **Easter Egg**: if you make the window in a more portrait aspect ratio, you can see Prior in my lap :)
