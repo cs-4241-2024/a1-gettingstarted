@@ -13,9 +13,12 @@ const server = http.createServer( function( request,response ) {
     case '/style.css':
       sendFile( response, 'style.css' )
       break
-    case '/animation.css':
-      sendFile( response, 'animation.css' )
+    case '/animation.js':
+      sendFile( response, 'animation.js' )
       break
+      case '/Picture.png':
+        sendFile( response, 'picture.png' )
+        break
     default:
       response.end( '404 Error: File Not Found' )
   }
