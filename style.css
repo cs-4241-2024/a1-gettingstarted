@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.Title {
+  color: rgb(217, 13,126, 85);
+}
+
+.BasicInfo {
+  color: rgb(255, 177, 0, 100);
+}
+  
+.Experience {
+  color: rgb(225, 235, 87, 92);
+}
+  
+.Programming {
+  color: rgb(167, 232, 88, 91);
+}
+
+.FunFact {
+  color: rgb(103, 102, 245, 96);
+}
+
