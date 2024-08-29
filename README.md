@@ -2,7 +2,7 @@ Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
 
 ---
 
-Charlie Roberts
+Anthony Titcombe
 https://a1-anthonytitcombe.glitch.me/
 
 This project shows ...
