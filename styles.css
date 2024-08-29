@@ -1,0 +1,30 @@
+body {
+    background-color: #e6c912;
+  }
+h1 {
+    color: #3d27e6;
+    font-family: sans-serif;
+}
+h2 {
+    background-color: #a69737;
+    color: #483f8f;
+    font-family: sans-serif;
+}
+p {
+  background-color: #a69737;
+  color: #483f8f;
+    font-family: arial;
+}
+ul {
+  background-color: #2e2c3b;
+  color: #69654c;
+  font-family: arial;
+}
+footer {
+  color: #3d27e6;
+  font-family: arial;
+}
+header {
+  color: #3d27e6;
+  font-family: arial;
+}
