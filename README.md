@@ -2,7 +2,7 @@
 
 Eddie Stump
 My github username is Eddie048
-TODO: Add glitch link
+Glitch Link: https://a1-eddie048.glitch.me/
 
 This project used the simple template and added a few styles, a google font, a button, and a fun javascript animation. See below for details on all of these features.
 
