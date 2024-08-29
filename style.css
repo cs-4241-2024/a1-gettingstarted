@@ -1,0 +1,38 @@
+/* style.css */
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    background-color: #C2E9E7; 
+    color: #AD5223; 
+    font-family: "Roboto", sans-serif; 
+}
+
+.darkMode{
+  background-color: black;
+}
+
+h1 {
+  color:#EBAA88;
+  text-align: center;
+}
+
+li{
+  color:#6B574D;
+}
+
+footer{
+  color: #859695;
+}
+
+img{
+  max-width: 20%;
+  max-height: auto;
+}
+
+table{
+  background-color: black;
+}
