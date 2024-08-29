@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffe6ee;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-color: #f5deff;
+  padding: 10px 0px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.background p {
+  padding-right: 120px;
+}
+
+.course {
+  background-color: #e8c9f5;
+  padding: 10px 0px;
+}
+.tools {
+  background-color: #e5d4ff;
+  padding: 10px 0px;
+}
+.work {
+  background-color: #c0bcf5;
+  padding: 10px 0px;
+}
+
+h1 {
+  color: #641185;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+h2 {
+  color: #461442;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+p {
+  color: #211223;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0px 10px;
+}
+
+/* figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 50%;
+  margin: auto;
+} */
+
+.main_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 50px;
+}
+
+img {
+  max-width: 300px;
+  height: auto;
+  clip-path: circle();
+}
+
+.circle-outline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 325px;
+  height: 325px;
+  border: 5px solid #461442;
+  border-color: transparent #461442 transparent #461442;
+  border-radius: 50%;
+  rotate: 120deg;
+}
+
+.circle-outline2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 375px;
+  height: 375px;
+  border: 5px solid #461442;
+  border-color: #461442 transparent #461442 transparent;
+  border-radius: 50%;
+  rotate: 120deg;
+}
+
+/* figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+} */
+
+footer {
+  background-color: #211223;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
