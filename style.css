@@ -1,0 +1,75 @@
+/* Reset/Normalize */
+* {
+  margin: 2;
+  padding: 1;
+  box-sizing: border-box;
+}
+
+/* CSS Variables for Color Palette */
+:root {
+  --color-light-gray: #ebeef2;
+  --color-beige: #bfb299;
+  --color-brown: #a67d4b;
+  --color-dark-brown: #403430;
+  --color-gray: #0d0d0d;
+}
+
+/* Base Styles */
+body {
+  font-family: "Roboto", sans-serif; /* Using Google Font 'Roboto' */
+  color: var(--color-dark-brown);
+  background-color: var(--color-light-gray);
+  line-height: 1.6;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-brown);
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+a {
+  color: var(--color-brown);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Layout */
+header {
+  background-color: var(--color-light-gray);
+  padding: 20px;
+  text-align: center;
+  border: 5px solid;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+footer {
+  background-color: var(--color-dark-brown);
+  color: var(--color-light-gray);
+  text-align: center;
+  padding: 10px 0;
+}
+img {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  transition: opacity 2s ease;
+}
+

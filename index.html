@@ -1,28 +1,83 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>CS4241 Assignment 1</title>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
+    <header>
+      <h1>Welcome to Tanishka Dalavi's Page</h1>
+      <nav></nav>
+    </header>
 
-    <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
+    <main>
+      <section>
+        <h2>Information about Tanishka Dalavi!</h2>
+        <p>
+          Hello! I am a senior at WPI. I have a strong interest in digital
+          forensics, cloud computing, and cybersecurity.
+        </p>
+        <p>I am currently majoring in Computer Science and Cybersecurity.</p>
+        <p>I have a cat and love animals as well as traveling.</p>
+        <img
+          src="https://cdn.glitch.global/59deeade-7852-45b3-b9f0-c03b66293b53/your-image-url.jpeg?v=1724795165205"
+          alt="A picture of Tanishka"
+        />
+      </section>
+
+      <section id="experience">
+        <h2>Experience</h2>
+        <p>
+          I have experience doing internships related to IT Desk Help, Security
+          Analyst, and Cloud Security as well.
+        </p>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <p>The classes I have taken relevant for my major are:</p>
+        <ul>
+          <li>Digital Forensics</li>
+          <li>Operating Systems</li>
+          <li>Distributed Systems</li>
+          <li>Algorithms</li>
+          <li>Database Systems</li>
+          <li>Introduction To Artificial Intelligence</li>
+          <li>Machine Learning</li>
+        </ul>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <p>I have experience with Java, Python, PowerFX, and Kotlin.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Tanishka Dalavi's Portfolio</p>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const img = document.querySelector("img");
+
+        img.style.opacity = 1;
+
+        img.addEventListener("mouseover", function () {
+          img.style.transition = "opacity 2s ease";
+          img.style.opacity = 0.3;
+        });
+
+        img.addEventListener("mouseout", function () {
+          img.style.opacity = 1;
+        });
+      });
+    </script>
   </body>
 </html>
