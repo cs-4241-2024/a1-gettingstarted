@@ -1,44 +1,119 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CS4241 Assignment 1</title>
-    <meta charset="utf-8">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CS4241 Assignment 1 for Jai Jariwala</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Information about Jai Jariwala</h1>
-    <p>
-      I'm from Mumbai and New York City at the same time. I love music and I play the guitar.
-    </p>
-    <p>
-      Robotics Engineering, Class of 2025. 
-    </p>
-    <p>
-      I have previously taken: 
-    </p>
-    <ul>
-      <li>The Dr. Racket one</li>
-      <li>Object Oriented Programming</li>
-      <li>Software Engineering</li>
-      <li>Machine Learning</li>
-      <li>Artificial Intellegence</li>
-    </ul>
+    <h1 class="main-title">Information about Jai Jariwala</h1>
 
-    <h2>Experience</h2>
-    <p>
-      <li>HTML - Some</li>
-      <li>CSS - Some</li>
-      <li>Java - A lot</li>
-      <li>JavaScript - Some</li>
-      <li>Ruby - None</li>
-      <li>Python - A lot </li>
-      <li>unit testing - Some </li>
-    </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
+    <div class="container1">
+      <div class="box">
+        <p class="bold-text">About me</p>
+        <ul class="hover-content">
+          <li>Robotics Engineering Major with a minor in CS</li>
+          <li>Class of 2025</li>
+          <li>Fun Fact: I play the guitar</li>
+        </ul>
+      </div>
+      <div class="box">
+        <p class="bold-text">Contact Information</p>
+        <ul class="hover-content">
+          <li>Email: jjariwala@wpi.edu</li>
+          <li>LinkedIn: jaijariwala</li>
+          <li>University: Worcester Polytechnic Institute</li>
+        </ul>
+      </div>
+      <div class="box">
+        <p class="bold-text">Skills</p>
+        <ul class="hover-content">
+          <li>HTML:
+            <ul>
+              <li>I have limited experience with it, but I have done online courses to learn more about website building.</li>
+            </ul>
+          </li>
+          <li>CSS:
+            <ul>
+              <li>Same as with HTML but maybe a little more as I have worked with styling web pages in internships before</li>
+            </ul>
+          </li>
+          <li>Java:
+            <ul>
+              <li>Extensive knowledge in it, and it is probably the language I am the most comfortable with. I have made multiple complete projects on it.</li>
+            </ul>
+          </li>
+          <li>HTML:
+            <ul>
+              <li>Little experience with it, but I understand the concept well. I may need to work harder this class to grasp it completely</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="box">
+        <p class="bold-text">Previous CS Courses</p>
+        <table>
+          <tr>
+            <th>Course Tag</th>
+            <th>Course Name</th>
+          </tr>
+          <tr>
+            <td>CS 4341</td>
+            <td>Introduction To Artificial Intelligence</td>
+          </tr>
+          <tr>
+            <td>CS 4342</td>
+            <td>Machine Learning</td>
+          </tr>
+          <tr>
+            <td>CS 3733</td>
+            <td>Software Engineering</td>
+          </tr>
+          <tr>
+            <td>CS 2102</td>
+            <td>Object Oriented Design Concepts</td>
+          </tr>
+          <tr>
+            <td>CS 1101</td>
+            <td>Introduction to Program Design</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <button id="toggle-info-button" onclick="toggleInfo()">More Inforamtion</button>
+
+    <div id="extra-info" class="hidden">
+      <div class="container2">
+      <div class="box">
+        <h2 class="sub-title">About Me</h2>
+        <p>
+          I am an Indian American from Mumbai, India, though I was born in New York City, NY. 
+          I have many hobbies as listed below!
+        </p>
+
+        <h3 class="sub-section-title">Hobbies</h3>
+        <p>
+          I enjoy coding, solving complex problems, and learning new technologies.
+          I also love music and learning new things about it. I like knowing what 
+          artist is thinking about while making the music. I also like going to 
+          concerts. 
+          Travelling is one of my favorite things to do 
+        </p>
+      </div>
+      </div>
+    </div>
+
+    <footer>
+      <a href="https://github.com/JJcool1128/a1-JJcool1128">GitHub Repository</a>
+      <img src="github-logo.png" alt="Image" class="footer-image" />
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
