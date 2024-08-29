@@ -1,0 +1,53 @@
+h1{
+    font-weight: 400;
+    color: darkred;
+    font-family: "New Amsterdam", sans-serif;
+}
+
+h2{
+    font-weight: 400;
+    color: darkred;
+    font-family: "New Amsterdam", sans-serif;
+}
+figcaption{
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    font-size: smaller;
+}
+
+.bold-p{
+    font-weight: 1000;
+}
+
+table {
+    width: 15%;
+}
+.underline-t{
+    text-decoration: underline;
+}
+
+td {
+    width: 50%;
+}
+
+img {
+    opacity: 0;
+    transition: opacity 4s ease-in-out;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+table{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
