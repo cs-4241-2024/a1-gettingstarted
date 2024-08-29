@@ -1,28 +1,163 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>CS4241 Assignment 1</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
 
-    <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e87d1030ee.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="bebas-neue-regular">
+    <header>
+      <a href="https://a1-aprilkat.glitch.me/"
+        ><i
+          onmouseover="hovering(this)"
+          onmouseout="normalizing(this)"
+          class="fas fa-home"
+          id="house"
+        ></i
+      ></a>
+    </header>
+
+    <article>
+      <h1>Introduction</h1>
+      <section class="flexbox-row">
+        <div class="imagebox">
+          <img
+            src="https://cdn.glitch.global/2755e9ec-b0de-4c7e-b28e-c84f9499e203/Trees.jpg?v=1724884252837"
+            alt="Trees"
+          />
+        </div>
+
+        <div id="intro">
+          <h2>April Bollinger</h2>
+          <p>
+            Worcester Polytechnic Institute <br />
+            Senior - Class of 2025
+          </p>
+          <p>
+            Major: Computer Science
+            <br />
+            Minor: Robotics Engineering
+          </p>
+        </div>
+        <div class="imagebox">
+          <img
+            src="https://cdn.glitch.global/2755e9ec-b0de-4c7e-b28e-c84f9499e203/field.jpg?v=1724884261120"
+            alt="Field"
+          />
+        </div>
+      </section>
+    </article>
+
+    <article>
+      <h2>Experience</h2>
+
+      <section class="flexbox">
+        <h3>Past WPI Computer Science Classes</h3>
+
+        <ul>
+          <li>CS 2303 - Systems Programming Concepts</li>
+          <li>CS 2223 - Algorithms</li>
+          <li>CS 3013 - Operating Systems</li>
+          <li>CS 3043 - Social Implication of Information Processing</li>
+          <li>CS 3133 - Foundations of Computer Science</li>
+          <li>CS 4341 -Introduction to Artificial Intelligence</li>
+          <li>
+            CS 4801 - Introduction to Cryptography and Communication Security
+          </li>
+          <li>CS 5003 - Foundations of Computer Science: An Introduction</li>
+        </ul>
+      </section>
+
+      <section class="flexbox">
+        <h3>Future/Current WPI Computer Science Classes</h3>
+
+        <ul>
+          <li>CS 4120 - Analysis of Algorithms</li>
+          <li>
+            CS 4241 - Webware: Computational Technology for Network Information
+            Systems
+          </li>
+          <li>CS 4342 - Machine Learning</li>
+          <li>CS 584 - Algorithms: Design and Analysis</li>
+        </ul>
+      </section>
+
+      <section class="flexbox">
+        <h3>Programming Languages</h3>
+        <table>
+          <tr>
+            <th>Language</th>
+            <th>Experience</th>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>A Lot</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>A Lot</td>
+          </tr>
+          <tr>
+            <td>Java</td>
+            <td>A Lot</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Some</td>
+          </tr>
+          <tr>
+            <td>Ruby</td>
+            <td>None</td>
+          </tr>
+
+          <tr>
+            <td>Python</td>
+            <td>A Lot</td>
+          </tr>
+          <tr>
+            <td>Unit Testing</td>
+            <td>Some</td>
+          </tr>
+          <tr>
+            <td>SQL/MySQL</td>
+            <td>A Lot</td>
+          </tr>
+          <tr>
+            <td>C/C++</td>
+            <td>A Lot</td>
+          </tr>
+          <tr id="lastCell">
+            <td>C#</td>
+            <td>Some</td>
+          </tr>
+        </table>
+      </section>
+    </article>
+
+    <footer>
+      <p>April Bollinger &copy; 2024</p>
+    </footer>
   </body>
+
+  <script>
+    function hovering(x) {
+      x.style.fontSize = "35px";
+    }
+
+    function normalizing(x) {
+      x.style.fontSize = "24px";
+    }
+  </script>
 </html>

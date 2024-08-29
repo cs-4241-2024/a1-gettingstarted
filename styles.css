@@ -1,0 +1,115 @@
+body {
+  background-color: #ffffff;
+  color: black;
+  margin: auto;
+  text-align: center;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  background-color: #0b5510;
+  padding: 2%;
+  text-align: left;
+}
+
+#house {
+  font-size: 24px;
+  color: white;
+}
+
+article {
+  margin: 5%;
+}
+
+section {
+  background-color: #26802c;
+  margin: 5% 0% 5% 0%;
+}
+
+.flexbox-row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.imagebox {
+  margin: 1%;
+  padding: 0;
+  width: 30%;
+}
+
+img {
+  width: 100%;
+  border: 3px solid;
+  border-color: #4faa55;
+}
+
+#intro {
+  margin: auto;
+  padding: 2%;
+  align-content: center;
+  background-color: #87d58c;
+  border: 3px solid;
+  border-color: #4faa55;
+}
+
+h3 {
+  color: white;
+  letter-spacing: 1px;
+}
+
+ul {
+  text-align: left;
+  background-color: #4faa55;
+  margin: 0%;
+}
+
+li {
+  background-color: #87d58c;
+  margin: 1.5%;
+  padding: 1% 5% 1% 5%;
+  border-radius: 15px 50px;
+}
+
+table {
+  background-color: #4faa55;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 3% 0% 2% 0%;
+}
+
+td {
+  background-color: #87d58c;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+tr {
+  border-bottom: 3px solid;
+  border-bottom-color: #4faa55;
+}
+
+#lastCell {
+  border-bottom: 0 solid;
+}
+
+footer {
+  background-color: #083300;
+  color: white;
+  margin: 0;
+  padding: 1%;
+}
