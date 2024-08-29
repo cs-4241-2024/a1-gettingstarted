@@ -1,0 +1,67 @@
+
+body {
+    font-family: Nerko One, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    background-color: #1899DE;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-right: 2px;
+    font-family: Nerko One,serif;
+}
+
+h2 {
+    color: #774AE0;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    font-family: Nerko One, sans-serif;
+}
+
+h3 {
+    color: #185EDE;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    padding-left: 20px ;
+    font-family: Nerko One, sans-serif;
+}
+p {
+    margin: 0 0 20px 0;
+    color: #18D7DE;
+    padding: 0;
+    font-size: 20px;
+    font-family: Nerko One, sans-serif;
+}
+ul {
+    list-style-type: none;
+    padding: 8px ;
+    font-family: Nerko One, sans-serif;
+}
+ul li {
+    padding: 5px 0;
+    font-family: Nerko One, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #fff;
+    font-family: Nerko One, sans-serif;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background: #f4f4f4;
+}
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
