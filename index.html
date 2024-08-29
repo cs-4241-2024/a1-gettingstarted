@@ -3,26 +3,70 @@
   <head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="server.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Information about [Your name here]</h1>
+    <h1>About me - Chenxi Zeng</h1>
     <p>
-      [Self introduction]
+      Hello! My name is Chenxi.
     </p>
     <p>
-      [Major and other information]
+      I am class of 2026, junior in CS major and Data Science minor.
     </p>
     <p>
-      [Other things]
+      I love listening to pop music, my favorite artists are NIKI, Conan Gray, Sabrina Carpenter and beabadoobee. 
     </p>
 
+    <h2>Previous Course</h2>
+    <P>
+      Before I take Webware I took Software Engineering, 
+      Object-Oriented, Operating Systems and Algorithms.
+    </P>
+    
     <h2>Experience</h2>
     <p>
-      Working experience
+      <li>I have some HTML experience, I had to do similar assignments for HCI.</li>
+      <li>I used some css in software engineering class, mostly was TailwindCss.</li>
+      <li> would say I had a lot of experience with Java when I was taking CS 2102.</li>
+      <li>I am most familiar with Javascript and typescript because I have to write a lot of code with them in softeng.</li>
+      <li>I've never used Ruby before.</li>
+      <li>I had very little experience with python, I've only used a little bit in my data science class.</li>
+      <li>I have some experience with unit testing.</li>
     </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
+
+    <h2>Rate the food</h2>
+
+    <table>
+      <tr>
+        <th>Morgan</th>
+        <th>CC</th>
+      </tr>
+      <tr>
+        <td>Ice cream are good</td>
+        <td>Curry are good</td>
+      </tr>
+      <tr>
+        <td>6/10</td>
+        <td>7.5/10</td>
+      </tr>
+    </table>
+
+    <p>Click Button to rotate picture for 360 degree</p>
+    <img id="cat-image" src="./cat.jpg">
+    <br>
+    <button onclick="rotateImage()">Rotate Image</button>
+    <br>
+    <script>
+      let rotation = 0;
+      function rotateImage() {
+        rotation += 90;
+        const image = document.getElementById('cat-image');
+        image.style.transform = `rotate(${rotation}deg)`;
+      }
+    </script>
+
   </body>
 </html>

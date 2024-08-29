@@ -1,0 +1,42 @@
+body {
+    background-color: #CFE8EE;
+    font-family: "Nerko One", cursive;
+  }
+  
+  h1 {
+    color: #6DABED;
+  }
+  
+  h2 {
+    color: #6DABED;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #EFA0E8;
+  }
+  
+  li {
+    margin-bottom: 15px;
+    color: #6D83ED;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    transition: transform 2s ease-in-out
+  }
+  
+  button {
+    background-color: #BCD181;
+    border: round;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    }
+
+    table, th, td {
+      border: 1px solid;
+    }
