@@ -20,7 +20,7 @@ This was quite simple, I used google and found that it was easy to add hyperlink
 
 ## Design Achievements
 ### Created a color palette using color.adobe.com. I chose the colors because I liked how they looked
-The screenshot of the pallette is in this repo.
+The screenshot of the pallette is in this repo in file Color Wheel.png
 This wasn't hard, I just used the default settings and moved it to colors that I liked.
 I had to change one of the colors to be more white in order for it to be a better background color
 
