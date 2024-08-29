@@ -34,8 +34,8 @@ Technical Achievements
 Design
 ---
 1. Color Palette:
-I used all the colors from this palette. The lighter colors are used in the background, and the darker colors are used on the text and the rings around the picture.
-![visual](imgages/pic2.png)
+- I used all the colors from this palette. The lighter colors are used in the background, and the darker colors are used on the text and the rings around the picture.
+![visual](images/pic2.png)
 
 2. Font:
 - I used Nerko One for the title of the website (Information about Aaron Zhang)
