@@ -5,8 +5,10 @@ Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
 Anthony Titcombe
 https://a1-anthonytitcombe.glitch.me/
 
-This project shows ...
-*Technical*
+This project shows what I'm about.
+
+What I achieved in the assignment
+_Technical_
 1. 
 - Responsive layout with 50% width ffor image tag 
 - Color scheme based on a custom color palette
