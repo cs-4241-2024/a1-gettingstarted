@@ -17,7 +17,7 @@ const server = http.createServer( function( request,response ) {
       sendFile( response, 'animation.js' )
       break
       case '/Picture.png':
-        sendFile( response, 'picture.png' )
+        sendFile( response, 'Picture.png' )
         break
     default:
       response.end( '404 Error: File Not Found' )
