@@ -1,0 +1,157 @@
+/******************************************************************************
+START Glitch hello-app default styles
+
+The styles in this section do some minimal CSS resets, set default fonts and 
+colors, and handle the layout for our footer and "Remix on Glitch" button. If
+you're new to CSS they may seem a little complicated, but you can scroll down
+to this section's matching END comment to see page-specific styles.
+******************************************************************************/
+
+/* Color Palette */
+:root {
+  --color-bg: #FAD911; /* Background color */
+  --color-text-main: #575BFA; /* Main text color */
+  --color-primary: #3DD1DB; /* Primary accent color */
+  --color-secondary: #25DB2F; /* Secondary accent color */
+  --color-highlight: #FF6FFF; /* Highlight color */
+  --wrapper-height: 87vh;
+  --image-max-width: 300px;
+  --image-margin: 3rem;
+  --font-family: "Kanit", sans-serif;
+  --font-family-header: "Kanit", sans-serif;
+}
+
+/* Basic page style resets */
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+
+/* Import Google Font */
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+}
+
+/* Header and Navigation */
+header {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: var(--color-secondary);
+}
+
+/* Main Content Styling */
+main {
+  padding: 2rem;
+}
+
+h1, h2 {
+  font-family: var(--font-family-header);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--color-primary);
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--color-highlight);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+th, td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 2px solid var(--color-primary);
+}
+
+th {
+  background-color: var(--color-secondary);
+  color: #ffffff;
+}
+
+td {
+  background-color: #ffffff;
+  color: var(--color-text-main);
+}
+
+/* Animated Box Styling */
+.animated-box {
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-secondary);
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.animated-box:hover {
+  transform: scale(1.2);
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.bounce {
+  animation: bounce 1s;
+}
+
+/* Footer Styling */
+footer {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+a {
+  text-decoration: underline;
+  color: var(--color-highlight);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--color-secondary);
+}
