@@ -1,0 +1,75 @@
+
+.header {
+    position: static;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #130082;
+    color: white;
+    text-align: center;
+  }
+
+.matemasie-regular {
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+h1 {
+    color: #ffffff;
+    font-family: "Matemasie", sans-serif;
+    font: 200;
+    text-align: center;
+}
+
+body {
+    background-image: radial-gradient(circle, #3A0A01, #3E001F, #130082);
+    font-family: cursive; 
+    text-align: center;
+    color:#FFFFFF;
+    /*background-image: url(sakura.jpg); 
+    background-position: center;
+    background-blend-mode:hard-light; */
+}
+
+ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+dl {
+    text-indent: 30px;
+}
+
+table.center, th, td  {
+    border: 1px solid #8A0005;
+    border-collapse: collapse;
+    margin-left:auto; 
+    margin-right: auto;
+    text-align: center;
+  }
+
+.myDiv {
+    color:#ffffff;
+    border: 5px outset #FFFFFF;
+    background-color: #3A0A01;
+    text-align: center;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-left: 100;
+  }
+
+
+  .footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
