@@ -1,0 +1,150 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Use a Google Font */
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    color: #3498db;
+}
+
+.button-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px; /* Space between the buttons */
+}
+
+/* Common button styles */
+.button {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: black;
+    color: #ffffff;
+    text-decoration: none; /* Remove underline from anchor */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.highlight1 {
+    color: #37dc96;
+    font-weight: bold;
+}
+
+
+.highlight2 {
+    color: rgba(255, 153, 0, 0.93);
+    font-weight: bold; /
+}
+@keyframes growAnimation {
+    0% {
+        transform: scale(1); /* Start at original size */
+    }
+    50% {
+        transform: scale(1.5); /* Grow to 150% of original size */
+    }
+    100% {
+        transform: scale(1); /* Return to original size */
+    }
+}
+
+.main-image {
+    width: 50%; /* Decrease the image size to 50% of its container */
+    max-width: 300px; /* Ensure the image doesn't get too large */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Center the image using auto margins */
+    display: block; /* Make the image a block element to enable centering */
+    animation: growAnimation 5s infinite;
+}
+
+
+footer {
+    text-align:-webkit-right;
+    position: page;
+    width: 95%;
+    bottom: 0;
+}
+
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    border: 2px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+    width: 60%; /* Set a fixed width for the pop-up */
+    max-width: 600px; /* Maximum width for larger images */
+    max-height: 80vh; /* Maximum height to fit within viewport */
+    overflow: auto; /* Allows scroll if content is too large */
+}
+
+.popup img {
+    width: 100%; /* Image will scale to fit the pop-up width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 999;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
