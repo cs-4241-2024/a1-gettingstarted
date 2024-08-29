@@ -101,5 +101,7 @@ This project shows ...
 - **Experimenting other HTML tags**: I have experimented using other tags in my index.html page. I have an image tag that has a profile picture of myself. I have a tables tage which houses my software experience. I also a have a footer at the end of the page to show who made the website. I have used different headers (H1 and H2) for my titles, which are both animated in colors. I also used captions to show what the table on my page is representing. I have implemented an unordered list of all my classes/on campus involvement to show what my activities are in school. I also used Hyperlinks which is linked to my IQP Repository and my Linked-In page.
 
 ### Design Achievements
-- **Used the New Amsterdam Font from Google Fonts**: I used New Amsterdam as the main font for my website. I used the New Amsterdam font for the tags located in the Body section of my website which includes my headers, paragraphs, and my table. 
+- **Used the New Amsterdam Font from Google Fonts**: I used New Amsterdam as the main font for my website. I used the New Amsterdam font for the tags located in the Body section of my website which includes my headers, paragraphs, and my table.
 - **Color Palette created by Adobe and used in the website**: I have created my own color palette using the proposed Adobe website and have included all the colors in different tags in my CSS file.
+
+Glitch Link: https://mountain-buttered-forsythia.glitch.me
