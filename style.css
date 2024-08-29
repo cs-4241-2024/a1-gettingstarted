@@ -1,0 +1,29 @@
+h1 {
+    color:rgb(43, 50, 51);
+}
+
+h2 {
+    color:rgb(43, 62, 65);
+}
+
+p {
+    color:rgb(43, 62, 65);
+}
+
+ul {
+    color:rgb(54, 101, 107);
+}
+
+.line {
+    border-bottom: 5px solid rgb(32, 173, 192);
+    margin-top: 5px;
+    width: 90%;
+}
+  
+footer {
+    color:rgb(54, 101, 107);
+}
+
+header {
+    color:rgb(54, 101, 107);
+}
