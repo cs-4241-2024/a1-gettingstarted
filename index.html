@@ -1,28 +1,144 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>CS4241 Assignment 1</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
+<head>
+  <title>CS4241 Assignment 1</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .popup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: white;
+      border: 2px solid #ddd;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      z-index: 1000;
+    }
+    .popup img {
+      max-width: 100%;
+    }
+    .popup-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.5);
+      z-index: 999;
+    }
+    .close-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: #333;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1 style="padding-top: 50px">
+    Hi, I'm Zihan Li, welcome to my page  &#128075; </h1>
+</header>
 
-    <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
-  </body>
-</html>
+<main>
+  <img src="image3.png" alt="ghost" class="main-image">
+
+  <p style="text-align: center; font-size:60px">
+    <span class="highlight1">CS</span> Major & Class of  <span class="highlight2">2026</span>
+  </p>
+  <p  style="text-align: center; font-size:25px  ">
+    Familiar with HTML, CSS, Java, JS, Python
+  </p>
+
+
+
+  <p style="text-align: center; font-size:25px ">
+    Here are some of the CS courses I took at WPI
+  </p>
+
+  <table>
+    <tr>
+      <th>Course Code</th>
+      <th>Course Name</th>
+    </tr>
+    <tr>
+      <td>CS3733</td>
+      <td>Software Engineering</td>
+    </tr>
+    <tr>
+      <td>CS3041</td>
+      <td>Human-Computer Interaction</td>
+    </tr>
+    <tr>
+      <td>CS3516</td>
+      <td>Computer Networks</td>
+    </tr>
+    <tr>
+      <td>CS3431</td>
+      <td>Database Systems I</td>
+    </tr>
+
+  </table>
+  <div class="button-container">
+    <a href="https://github.com/Yunynl" class="button contact-button">Contact</a>
+    <button id="clickButton" class="button">Click it !!!</button>
+  </div>
+
+  <div id="popupOverlay" class="popup-overlay"></div>
+  <div id="popup" class="popup">
+    <button id="closeButton" class="close-button">X</button>
+    <img src="https://via.placeholder.com/600" alt="Placeholder image">
+  </div>
+</main>
+
+<footer>
+  <p>© 2024 Zihan </p>
+</footer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const moreButton = document.getElementById('clickButton');
+    const popup = document.getElementById('popup');
+    const popupOverlay = document.getElementById('popupOverlay');
+    const closeButton = document.getElementById('closeButton');
+    const imageElement = popup.querySelector('img');
+
+
+    const images = [
+      'image1.jpg',
+      'image2.jpg',
+    ];
+
+    moreButton.addEventListener('click', function() {
+      // Select a random image from the array
+      const randomIndex = Math.floor(Math.random() * images.length);
+      imageElement.src = images[randomIndex];
+
+      popup.style.display = 'block';
+      popupOverlay.style.display = 'block';
+    });
+
+    closeButton.addEventListener('click', function() {
+      popup.style.display = 'none';
+      popupOverlay.style.display = 'none';
+    });
+
+    popupOverlay.addEventListener('click', function() {
+      popup.style.display = 'none';
+      popupOverlay.style.display = 'none';
+    });
+  });
+</script>
