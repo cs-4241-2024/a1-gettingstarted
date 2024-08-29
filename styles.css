@@ -1,6 +1,6 @@
 
 body {
-    font-family: Nerko One, sans-serif;
+    font-family: "SUSE";
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -14,14 +14,14 @@ h1 {
     text-align: center;
     margin-bottom: 0;
     margin-right: 2px;
-    font-family: Nerko One,serif;
+    font-family: "SUSE";
 }
 
 h2 {
     color: #774AE0;
     border-bottom: 2px solid #333;
     padding-bottom: 5px;
-    font-family: Nerko One, sans-serif;
+    font-family: "SUSE";
 }
 
 h3 {
@@ -29,39 +29,55 @@ h3 {
     border-bottom: 2px solid #333;
     padding-bottom: 5px;
     padding-left: 20px ;
-    font-family: Nerko One, sans-serif;
+    font-family: "SUSE";
 }
 p {
     margin: 0 0 20px 0;
     color: #18D7DE;
     padding: 0;
     font-size: 20px;
-    font-family: Nerko One, sans-serif;
+    font-family: "SUSE";
 }
 ul {
     list-style-type: none;
     padding: 8px ;
-    font-family: Nerko One, sans-serif;
+    font-family: "SUSE";
 }
 ul li {
     padding: 5px 0;
-    font-family: Nerko One, sans-serif;
+    font-family: "SUSE";
 }
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-    background: #fff;
-    font-family: Nerko One, sans-serif;
+    background: #628DDE;
+
 }
 th, td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
+    background: #628DDE;
 }
 th {
-    background: #f4f4f4;
+    background: #628DDE;
 }
 tr:nth-child(even) {
-    background: #f9f9f9;
+    background: #628DDE;
+}
+
+img{
+    width: 10%;
+    height: 10%
+}
+
+@keyframes colorChange {
+    0% { color: white; }
+    50% { color: blue; }
+    100% { color: white; }
+}
+
+#animatedHeader {
+    animation: colorChange 2s infinite;
 }
