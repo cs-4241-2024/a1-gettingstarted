@@ -15,11 +15,11 @@ Popup: Styled the popup overlay and content for better visibility and user exper
 2.I implemented a JavaScript-based animation for the main image. The image scales up and down continuously, providing a dynamic visual effect
 
 3.I used various semantic HTML tags：
-<header>: Contains the main title and introduction.
-<main>: Encompasses the primary content of the page.
-<footer>: Provides copyright information.
-<table>: Displays a list of courses in a tabular format.
-<a>: Used for the contact button to link to a contact page
+header: Contains the main title and introduction.
+main: Encompasses the primary content of the page.
+footer: Provides copyright information.
+table: Displays a list of courses in a tabular format.
+a: Used for the contact button to link to a contact page
 
 4.I've added a “click button” to my site to show randomized images by clicking on the button (only 2 so far).
 ### Design Achievements
