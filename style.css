@@ -20,6 +20,15 @@ h2 {
 
 button {
   font-family: "Moderustic", sans-serif;
-  background-color: white;
+  color: white;
+  background-color: darkslategray;
   border-radius: 20px;
+  padding: 8px 40px;
+  border-style: none;
+  font-size: large;
+  margin: 20px;
+}
+
+button:hover {
+  background-color: slategray;
 }

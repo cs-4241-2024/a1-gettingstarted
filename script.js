@@ -30,5 +30,12 @@ const raceStep = () => {
 };
 
 // Start race on button click
-document.getElementsByTagName("button")[0].onclick = () =>
+document.getElementsByTagName("button")[0].onclick = () => {
+  // Reset race (in case this is not the first time it is being run)
+  for (let racer of raceElements) {
+    racer.position = 0;
+    racer.velocity = 0;
+  }
+
   requestAnimationFrame(raceStep);
+};
