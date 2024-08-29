@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    background-color: #D9D4CC;
+}
+
+header {
+    background-color: #adb47a;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 85% 85% / 30%;
+}
+
+header .overlay {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #333;
+    background-color: #adb47a;
+
+}
+
+footer {
+    background-color: #A6896F;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'New Amsterdam';
+    font-size: 40px;
+    color: #401E04;
+}
+
+h2 {
+    color: #401E04;
+    font-family: 'New Amsterdam';
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+p,
+li {
+    font-family: Roboto Mono;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 4rem 5vw;
+    padding: 0;
+    list-style-type: none;
+}
+
+.card {
+    position: relative;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #adb47a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.experience-item_title {
+    min-height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #401E04;
+    text-align: center;
+}
