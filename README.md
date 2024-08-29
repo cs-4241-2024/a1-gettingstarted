@@ -2,7 +2,7 @@ Sample Readme (delete the above when you're ready to submit, and modify the text
 ---
 
 Nora Steffen
-http://a1-charlieroberts.glitch.me
+[http://a1-nost2425.glitch.me/]
 
 This project shows a simple website. It contains some basic information about me as well as some details about my technical background
 
