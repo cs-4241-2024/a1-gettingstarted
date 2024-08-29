@@ -1,5 +1,5 @@
 
-This project shows ...
+This project shows a simple webpage displaying some information about myself. Information included is my name, class, major and minor, CS courses completed, and my level of expereience with several technologies and methods. A basic understanding of HTML and CSS is also demonstrated by implementing different semantic HTML tags and CSS rules.
 
 ### Technical Achievements
 - **Styled page with CSS**: Added rules for the body, table, th, td, li, and p selectors. The rules for body changed the background color, the text color, and the font. The rules for table, th, and td added solid collapsed borderes with a 2px width; 4px padding was also added alongside a large font size and text being center aligned. The rules for li made the font size large and changed the font style to italic. The rule for p made the font size large.
