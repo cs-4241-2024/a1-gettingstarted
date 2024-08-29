@@ -7,51 +7,18 @@ This project shows various foundational techniques in web design and development
 ## Technical Achievements
 - **Styled page with CSS**: Added rules for the following elements:
     - body: Added a simple background colour using hex code which followed the colour theme described below
-    - header: 
-    - footer
-    - h1
-    - h2
-    - table
-    - p
-    - li
-    - img
-    - link
-    - custom cards:
-    - animation: 
+    - header: Added background colour, aligned the text center, and created an overlay on the header to create curved look.
+    - footer: Added a simple background colour to identify it
+    - h1: Used font family of New Amsterdam, aligned it center, and used a font size of 40px.
+    - h2: Used font family of New Amsterdam, aligned it center, and used a colour within the palette
+    - table: Created a border to identify the table better, it includes the CS courses I have taken at WPI
+    - p and li: Used Roboto Mono font
+    - img: Made the width fit the screen and automate the height based on the image capactiy
+    - custom cards: Created a rectangular card which utilized rounded boarders, green background, a hover effect which creates a background shadow. Stops the text from going beyond the element by using overflow.
+    - animation: The cards on hover will transform and change the image size by 1.05% using scale in css
 
 
 ### Design Achievements
 - **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
-    - Colour Palette: SS
-    - Google Font:
-
-
-Certainly! Here's a README file based on the given template:
-
----
-
-# Hanna Trinh  
-[Visit my website](#)
-
-This project demonstrates various techniques in web design and development, focusing on both technical and design aspects. It includes styling using CSS, font customization, and other front-end enhancements.
-
-## Technical Achievements
-- **Styled page with CSS**: Added custom rules for various elements like `<p>`, `<li>`, and `<a>` selectors to enhance the overall look and feel of the website. Specific styles include:
-  - Custom font sizes and colors.
-  - Margin and padding adjustments for better spacing.
-  - Hover effects for links to improve user interaction.
-
-- **Responsive Design**: Implemented responsive design techniques to ensure the website is accessible and visually appealing on various screen sizes, from mobile devices to desktops.
-
-- **Optimized Images**: Compressed images and used the appropriate image formats to improve page load times without compromising quality.
-
-### Design Achievements
-- **Used the Roboto Font from Google Fonts**: Incorporated Roboto as the primary font for the site's text content, providing a clean and modern look that enhances readability and user experience.
-
-- **Color Scheme**: Developed a consistent color scheme that aligns with the website's theme, using complementary colors to create visual harmony.
-
-- **Layout Design**: Created a structured layout that guides users through the content in a logical flow, making the site intuitive and easy to navigate.
-
----
-
-Feel free to adjust any part of this template to better match your project details!
+- **Used the New Amsterdam from Google Fonts**: I used New Amsterdam as the font for my headers
+- **Used the colour palette from Adobe Color**: I used a green and brown neutral tone for my theme
