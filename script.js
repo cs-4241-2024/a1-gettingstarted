@@ -1,29 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const header = document.getElementById('wiggle-header');
-    let angle = 0;
-    let isWiggling = false;
+    const header = document.getElementById('top-header');
 
-    function wiggle() {
-        if (isWiggling) {
-            angle += 0.3;
-            header.style.transform = `rotate(${Math.sin(angle) * 2}deg)`;
+    // Set initial position
+    header.style.transform = 'translateY(-100%)';
+    header.style.opacity = '0';
 
-            if (angle > Math.PI * 2) {
-                isWiggling = false;
-                angle = 0;
-                header.style.transform = 'rotate(0deg)';
-            } else {
-                requestAnimationFrame(wiggle);
-            }
-        }
-    }
-
-    function startWiggle() {
-        if (!isWiggling) {
-            isWiggling = true;
-            wiggle();
-        }
-    }
-
-    setInterval(startWiggle, 3000);
+    // Trigger the animation after a short delay
+    setTimeout(() => {
+        header.style.transition = 'transform 0.5s, opacity 0.5s';
+        header.style.transform = 'translateY(0)';
+        header.style.opacity = '1';
+    }, 100);
 });

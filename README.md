@@ -8,7 +8,9 @@ https://a1-mkneuffer.glitch.me/
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, and a selectors...
+- **Styled page with CSS**: Added rules for headers, the experience boxes, links, footer, and body
+- **Added simple JavaScript Animation**: Added animation where the header of the page slides in from the top, on page load.
+- **HTML tags**: Added tages for links (for connecting to example content of the projects), footer (email link and name), div (experience boxes), images, and headers (h1, h2, h3).
 
 ### Design Achievements
 - **Used OpenSans Font from Google Fonts**: Applied OpenSans to my site as the primary font.
