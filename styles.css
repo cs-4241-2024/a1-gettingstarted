@@ -1,0 +1,68 @@
+body{
+    background-color:rgb(250, 221, 177);
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:center;
+    transition: transform 1s;
+}
+/* h1:hover{ 
+    transform: translateX(6%);
+   
+} */
+p { 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:black; 
+    color: rgb(25, 134, 143); 
+
+}
+h2 { 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgb(14, 33, 250); 
+
+    font-size: x-large; 
+}
+
+footer{ 
+    color:rgb(132, 20,9);
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    text-align: center;
+    font:bold; 
+    font-weight: 850;
+    font-size: x-large;
+}
+.favoriteQuote{ 
+    text-align: center;
+    font:bold; 
+    font-size: large;
+    margin-left: 2rem;
+}
+tr, td, th{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 1px solid black; 
+    margin-left: 2rem;
+    color: rgb(0, 230, 235);
+}
+
+img{ 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+    transition: transform 1s;
+}
+
+.nameHeader{
+    color: rgb(234, 45, 0);
+}

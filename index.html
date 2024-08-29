@@ -1,28 +1,191 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>CS4241 Assignment 1</title>
+    <title> CS4241 Assignment 1 </title>
     <meta charset="utf-8">
-  </head>
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<style>
+  @keyframes imagemove{
+    from {left: 0rem}; 
+    to {right:5rem};
+  }
+</style>  
+</head>
   <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
+    <header>
+      <h1 id="name" class="nameHeader">Vivek Jagadeesh</h1>
+      <h2>WPI class of 2026</h2>
 
-    <h2>Experience</h2>
-    <p>
-      Working experience
+    </header>
+
+    <img id="wpiSvg.png" src="wpiSvg.png"  ></img>
+    <script>
+      const imageMove = [
+        {transform: "translateX(100%)"}, 
+    ]; 
+    const nameMove = [
+        {transform: "translateX(5%)"}, 
+    ]
+    const imagemovetime = {
+  duration: 1000,
+  iterations: 1,
+};
+const namemovetime = {
+  duration: 1000,
+  iterations: 1,
+};
+      const image = document.getElementById("wpiSvg.png"); 
+      image.addEventListener("click", () => image.animate(imageMove,imagemovetime));
+      const name = document.getElementById("name"); 
+      name.addEventListener("click", () => name.animate(nameMove, namemovetime))
+    </script>
+    <p>click on the wpi image and my name for a fun animation!</p>
+    
+    <p class = "description">
+      Hi! My name is Vivek and I am a junior at WPI majoring in CS with a minor in Electrical Engineering. 
+      My interests include full-stack development, cloud computing, and embedded systems. 
     </p>
+    <h2 >Majors and Minors: </h2>
+    <p>
+     Major in Computer Science with a concentration in Systems, Minor in ECE
+    </p>
+    
+    <h2 >CS courses that I've taken at WPI</h2>
+    <table>
+      <tr>
+        <th>Course</th>
+        <th>Term</th>
+      </tr>
+      <tr>
+        <td>CS 1101</td>
+        <td>A term 2022</td>
+        
+      </tr>
+      <tr>
+        <td>CS 2102</td>
+        <td>B term 2022</td>
+        
+      </tr>
+      <tr>
+        <td>CS 2303</td>
+        <td>C term 2023</td>
+        
+      </tr>
+      <tr>
+        <td>CS 2011</td>
+        <td>D term 2023</td>
+       
+      </tr>
+      <tr>
+        <td>CS 3013</td>
+        <td>A term 2024</td>
+      
+      </tr>
+      <tr>
+        <td>CS 2223</td>
+        <td>B term 2023</td>
+        
+      </tr>
+      <tr>
+        <td>CS 3431</td>
+        <td>C term 2024</td>
+       
+      </tr>
+      <tr>
+        <td>CS 3733</td>
+        <td>D term 2024</td>
+      
+      </tr>
+      <tr>
+        <td>CS 4241</td>
+        <td>A term 2024</td>
+      </tr>
+    </table>
+    <h2 >Web frameworks</h2>
+    <table>
+      <tr>
+        <th>Framework</th>
+        <th>Experience</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>A lot (mostly in react.js)</td>
+        
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>Some</td>
+        
+      </tr>
+      <tr>
+        <td>Java</td>
+        <td>A lot</td>
+        
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>A lot</td>
+       
+      </tr>
+      <tr>
+        <td>Ruby</td>
+        <td>None</td>
+      
+      </tr>
+      <tr>
+        <td>Python</td>
+        <td>A lot</td>
+        
+      </tr>
+      <tr>
+        <td>Unit Testing</td>
+        <td>A lot</td>
+       
+      </tr>
+      
+    </table>
+   
+   
+
+
+
+
+
+    <h2 >Projects</h2>
+    <details open>
+      <summary>CS 3733 - software engineering</summary>
+          <a href = "https://brighamwomens.com" target="_blank">Check out my software engineering project (CS 3733)!</a> 
+
+
+    </details>
+    <details open>
+      <summary>Porfolio Website</summary>
+      <a href = "https://vivekjagadeesh.com" target="_blank">Check out my portfolio website!</a> 
+
+    </details>
+    <br/>
+    <h2>Work History</h2>
     <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
+      <li>WPI - CS Student Assistant</li>
+
+      <li>Massachusetts House of Representatives - Legislative Intern</li>
+      <li>Dave Cavell for Congress - Field intern </li>
+
+      </ul>
+
+  
+    <h2 >
+      Favorite Quote: 
+    </h2>
+    <em class = "favoriteQuote">
+      "Talent sets the floor, character sets the ceiling - Bill Belichick"
+    </em>
+    
+    <footer > 
+      Website made by Vivek Jagadeesh for CS 4241 - WebWare at WPI
+    </footer>
   </body>
 </html>
