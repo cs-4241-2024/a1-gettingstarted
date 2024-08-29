@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap");
+
+.racer {
+  width: fit-content;
+}
+
+h1,
+h2,
+p,
+li {
+  font-family: "Moderustic", sans-serif;
+}
+
+h1,
+h2 {
+  border-width: 0 0 2px 0;
+  border-color: black;
+  border-style: solid;
+}
+
+button {
+  font-family: "Moderustic", sans-serif;
+  color: white;
+  background-color: darkslategray;
+  border-radius: 20px;
+  padding: 8px 40px;
+  border-style: none;
+  font-size: large;
+  margin: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: slategray;
+}
