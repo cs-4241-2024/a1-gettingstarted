@@ -5,7 +5,7 @@ This project shows ...
 
 ## Technical Achievements
 - **Styled page with CSS**: Added rules for the backgound-color, color, font-family, max-width, max-height, text-align
-- **Uses Other Semantic HTML Tags**: Used img, footer, link
+- **Uses Other Semantic HTML Tags**: Used img, footer, link, table, ul, li
 - **Added a Javascript Animation to the Page**: Made a dark mode button that changes the back-ground color of the body to black 
 
 ### Design Achievements
