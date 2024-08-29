@@ -1,28 +1,100 @@
 <!doctype html>
+
 <html lang="en">
   <head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<header>
+  <p>
+    August-October
+  </p>
+</header>
   </head>
   <body>
-    <h1>Information about [Your name here]</h1>
+    <h1>Information about Joseph Caproni</h1>
     <p>
-      [Self introduction]
+      Joseph Caproni, Class of 2025
     </p>
     <p>
-      [Major and other information]
+      Bachelor's Degree in Computer Science
     </p>
     <p>
-      [Other things]
+      I have taken Introduction to Programming, Object-Oriented Programming, Systems Programming, Algorithms, Discrete Math, Theory of Computer Science, Assembly Language, Software Engineering, Databases I, Human-Computer Interaction, Operating Systems, Mobile and Ubiquitous Programming.
     </p>
 
     <h2>Experience</h2>
     <p>
-      Working experience
+      Languages I have experience with:
     </p>
     <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
+      <li>I have the most experience with Java and unit testing.</li>
+      <li>I have some experience with HTML, CSS, and JavaScript.</li>
+      <li>I have a little experience with Python.</li>
+      <li>I have no experience with Ruby.</li>
     </ul>
+
+    <h2>Hobbies</h2>
+    <p>
+      I enjoy playing hiking, golfing, and playing video games.
+    </p>
+    <h4>Date Created: 8/22/2024</h4>
+    <h5>Due Date: 8/29/2024</h5>
+    <a href="https://weather.com/">Weather</a>
+    <table>
+      <tr>
+        <th>Sunday</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+      </tr>
+      <tr>
+        <td>8/25</td>
+        <td>8/26</td>
+        <td>8/27</td>
+        <td>8/28</td>
+        <td>8/29</td>
+        <td>8/30</td>
+        <td>8/31</td>
+      </tr>
+    </table>
+
+    <img id="image1" src = "img/jsimage1.jpeg" alt = "Tiger" width = "500" height = "500">
+    <footer>
+      <p>
+        A-Term
+      </p>
+    </footer>
+    <script>
+      
+  
+      //window.onload = function init() {
+        let move = document.getElementById('image1');
+        move.style.position = 'relative';
+        move.style.left = '20px';
+        move.style.top = '0px';
+
+        let pos = 0;
+        
+        setInterval(function(){pos += 10; move.style.left = pos + "px";}, 500)
+
+        
+
+
+        
+       
+        //setInterval(() => {move.style.right = parseInt(move.style.right) + 10 + "px"}, 5000)
+       
+
+    //}
+    window.onload = init;
+    </script>
   </body>
+  
 </html>
