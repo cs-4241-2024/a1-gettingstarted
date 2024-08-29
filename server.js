@@ -10,6 +10,15 @@ const server = http.createServer( function( request,response ) {
     case '/index.html':
       sendFile( response, 'index.html' )
       break
+    case '/style.css':
+      sendFile(response, 'style.css', 'text/css')
+      break
+    case '/HelloImage.jpg':
+      sendFile(response, 'HelloImage.jpg', 'image/jpeg')
+      break
+    case '/NerkoOne-Regular.ttf':
+      sendFile(response, 'NerkoOne-Regular.ttf')
+      break
     default:
       response.end( '404 Error: File Not Found' )
   }
@@ -22,3 +31,4 @@ const sendFile = function( response, filename ) {
      response.end( content, 'utf-8' )
    })
 }
+

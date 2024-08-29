@@ -1,19 +1,22 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
   </head>
   <body>
-    <h1>Information about [Your name here]</h1>
+    <h1>Information about Ashley Jacob</h1>
+    <img id="myImage" src="HelloImage.jpg" width="300" height="300">
     <p>
-      [Self introduction]
+      Hi I am a senior studying at Worcester Polytechnic Institute. In my free time I like to hang out with friends, watch movies, and play tennis.
     </p>
     <p>
-      [Major and other information]
+      I am majoring in Computer Science and minoring in Business.
     </p>
     <p>
-      [Other things]
+      I love to travel, my top two destinations I would like to visit next are Spain and Japan.
+
     </p>
 
     <h2>Experience</h2>
@@ -21,8 +24,33 @@
       Working experience
     </p>
     <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
+      <li>Staples Store Associate</li>
+      <li>Christmas Tree Shops Store Associate</li>
+      <li>Staples Software Engineer Intern</li>
+      <li>SAVVAS Software Developer Intern</li>
     </ul>
+    <button id="btnRotate" type="button" onclick = "rotate()"> Press to rotate image</button>
+    <button id="btnStopRotate" type="button" onclick = "stopRotate()"> Press to stop rotation</button>
   </body>
 </html>
+
+<script> 
+let timer;
+let turn = 0;
+function rotate() {
+  timer = setInterval(rotateHelper, 200);
+  let x = document.getElementById("btnRotate");
+  x.disabled = true;
+}
+function stopRotate() {
+  clearInterval(timer);
+  let x = document.getElementById("btnRotate");
+  x.disabled = false;
+}
+
+function rotateHelper() {
+  let x = document.getElementById("myImage");
+  turn += 60;
+  x.style.transform = "rotate("+ (turn % 360) +"deg)"
+}
+</script>
