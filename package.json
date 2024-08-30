@@ -1,8 +1,8 @@
 {
-  "name": "cr-4241-simple-glitch",
+  "name": "a1-TurtleCat02",
   "version": "0.1.0",
   "description": "WPI CS 4241 first assignment",
-  "author": "Charlie Roberts",
+  "author": "Benjamin Skarnes",
   "scripts": {
     "start": "node server.js"
   }
