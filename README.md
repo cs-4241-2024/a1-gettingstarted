@@ -6,6 +6,8 @@
 This is the first project for CS4241, WebWare.
 It is a simple website that displays some information about me.
 
+\* This assignment was turned in 8 hours late because I had COVID.
+
 ## 🛠️ Technical Achievements
  - Modified server to easily expand served files
  - Page styled & animated with CSS (html, body, tables, buttons, header, footer, etc. + hover animations)
