@@ -1,0 +1,26 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+td, th {
+    border: 1px solid black;
+    margin: 0;
+    padding: 2px 6px;
+}
+
+th {
+    min-width: max-content;
+}
+
+td {
+    text-align: center;
+}
+
+ul {
+    font-family: monospace;
+}
+
+li:hover {
+    color: red;
+    font-weight: bold;
+}
