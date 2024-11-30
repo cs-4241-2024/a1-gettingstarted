@@ -1,0 +1,27 @@
+body {
+    background-color: #0D1E2E;
+    font-family: "Kanit", sans-serif;
+}
+
+/* h1, h2, h3, p, ul { } */
+    /* text-align: center; */
+    
+summary {
+  color: #c1847e;
+}
+h1 {
+    /* text-align: center; */
+    color: #ec4e7b;
+}
+h2 {
+    color: #A6C265;
+}
+h3 {
+    color: #ea855d
+}
+li {
+    color: #c1847e
+}
+p {
+    color: #c1847e;
+}
